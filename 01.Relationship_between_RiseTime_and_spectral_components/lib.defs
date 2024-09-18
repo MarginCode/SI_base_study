@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE 01#2erelationship_between_RiseTime_and_spectral_components_lib 01.relationship_between_RiseTime_and_spectral_components_lib
+ASSIGN 01#2erelationship_between_RiseTime_and_spectral_components_lib libMode shared

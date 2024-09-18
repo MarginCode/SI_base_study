@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE 05#2ecurrent_on_return_path_lib 05.current_on_return_path_lib
+ASSIGN 05#2ecurrent_on_return_path_lib libMode shared

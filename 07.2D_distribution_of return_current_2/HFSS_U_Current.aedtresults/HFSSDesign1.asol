@@ -1,0 +1,188 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000009, day=000000000018, hour=000000000017, min=000000000051, sec=000000000004)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000004571, lin=000000000167, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock4'
+	SimSetupID=84
+	SimSetupName='Setup1'
+	VersionID=90
+	$begin 'EmConvergenceData'
+		EmConv(VID=173, Ver=90, EmConv='DV173_S84_V90.EMConvData')
+	$end 'EmConvergenceData'
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=173, Ver=90, Dir='DV173_S84_V90.cmesh/')
+	$end 'CurrMeshes'
+	MeshAssemVersionID=1
+	$begin 'NextAssemVersionID'
+		NextUniqueID=2
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'ADP'
+		$begin 'SubData'
+			ID=3
+			ADP(VID=173, Ver=90, Dir='DV173_S84_ADP3_V90.sd/')
+		$end 'SubData'
+	$end 'ADP'
+	$begin 'SU'
+		$begin 'SubData'
+			ID=1
+			SU(VID=173, Ver=90, File='DV173_S84_SD1_V90.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			SU(VID=173, Ver=90, File='DV173_S84_SD2_V90.su')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			SU(VID=173, Ver=90, File='DV173_S84_SD3_V90.su')
+		$end 'SubData'
+	$end 'SU'
+	$begin 'WaveAdapt'
+		WA(VID=173, Ver=90, A=1)
+	$end 'WaveAdapt'
+	$begin 'MeshOps'
+		OPS(VID=173, Ver=90, ID=0)
+	$end 'MeshOps'
+	$begin 'LastPassNumbers'
+		LP(VID=173, Ver=90, P=3)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=173, Ver=90, File='DV173_S84_V90.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=173, Ver=90, Dir='DV173_S84_MI0_V90.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock4'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=84, Instance=\'SetupDefinition\', Solution=-1, VersionID=90)'='SolutionBlock4'
+	'SolutionKey(SimSetup=84, Instance=\'SolutionDefinition\', Solution=85, VersionID=90)'='SolutionBlock2'
+	'SolutionKey(SimSetup=84, Instance=\'SolutionDefinition\', Solution=86, VersionID=184)'='SolutionBlock7'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=81
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=198
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='Air_ext=\'20mil\' T=\'1.2mil\' Tsub=\'3.2400000000000002mil\' U_len=\'280mil\' U_w=\'100mil\' w_t=\'6.0000000000000009mil\' xlen=\'400mil\' ylen=\'600mil\'', ID=173)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=173, Ver=81, Dir='DV173_V81.imesh/')
+	$end 'InitialMeshes'
+	MeshAssemVersionID=62
+	$begin 'NextAssemVersionID'
+		NextUniqueID=63
+		MoveBackwards=false
+	$end 'NextAssemVersionID'
+	$begin 'DefinitionMeshes'
+		$begin 'DefMeshes_Comp-1'
+			DefinitionID=-1
+			VersionID=61
+			VIDMap('Air_ext=\'20mil\' T=\'1.2mil\' Tsub=\'3.2400000000000002mil\' U_len=\'280mil\' U_w=\'100mil\' w_t=\'6.0000000000000009mil\' xlen=\'400mil\' ylen=\'600mil\'', 133)
+			DM(VID=133, Ver=61, Dir='NDV133_V61.dmesh/')
+		$end 'DefMeshes_Comp-1'
+	$end 'DefinitionMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=173, Ver=81, Dir='DV173_MI0_V81.sd/')
+		$end 'SubData'
+	$end 'MI'
+	VersionID2=82
+$end 'SolutionBlock1'
+$begin 'SolutionBlock7'
+	SolutionName='LastAdaptive'
+	SolutionID=86
+	V=184
+	$begin 'States'
+		F(VID=173, Ver=184)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=173, Ver=184, File='DV173_SOL86_M0_V184.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(138, 1000000000, 168, 100000000, 197, 1)
+		$begin 'DataMap'
+			VID=173
+			Ver=184
+			F(DblID=197, Dir='DV173_S86_V184_F197/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock7'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=85
+	V=90
+	$begin 'States'
+		F(VID=173, Ver=90)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=173, Ver=90, File='DV173_SOL85_M1_V90.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=173, Ver=90, File='DV173_SOL85_M2_V90.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=173, Ver=90, File='DV173_SOL85_M3_V90.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock2'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=1686, lin=58, lvl=0)
+		SolutionBlock2(pos=3893, lin=134, lvl=0)
+		SolutionBlock7(pos=3217, lin=101, lvl=0)
+		SolutionBlock4(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=2070, lin=64, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=4571, lin=167, lvl=0)
+	$end '$index$'
+$end '$index$'
+  

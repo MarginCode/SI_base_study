@@ -1,0 +1,78 @@
+; Top Design: "01.relationship_between_RiseTime_and_spectral_components_lib:Spectrum_Tr_relationship:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="01.relationship_between_RiseTime_and_spectral_components_lib:Spectrum_Tr_relationship:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+I_Source:SRC1  0 Synthetic_waveform Type="I_DC" Idc=0.5 A 
+R:R1  Synthetic_waveform 0 R=1 Ohm Noise=yes 
+Tran:Tran1 StartTime=0.0 nsec StopTime=30.0 nsec MaxTimeStep=10 psec MinTimeStep=10 psec LimitStepForTL=yes \
+TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes ImpSkipTotalEnergy=1000 ImpLFEOn=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+I_Source:SRC2  0 Synthetic_waveform Type="ItSine" I[1]=if (_tr_state == 0) then Amp_1F*exp(j*2*pi*(0/360-0 nsec*F_base-.25)-(time-0 nsec)*0)*step((time-0 nsec)+tinyreal) else 0 endif Freq[1]=F_base Idc=0 mA I_Tran=if (_tr_state == 1) then damped_sin(time,0,Amp_1F,F_base,max(0,0 nsec),0,0) else Amp_1F*step((0 nsec-time)-tinyreal)*sin(pi*0/180) endif 
+I_Source:SRC3  0 Synthetic_waveform Type="ItSine" I[1]=if (_tr_state == 0) then Amp_3F*exp(j*2*pi*(0/360-0 nsec*3*F_base-.25)-(time-0 nsec)*0)*step((time-0 nsec)+tinyreal) else 0 endif Freq[1]=3*F_base Idc=0 mA I_Tran=if (_tr_state == 1) then damped_sin(time,0,Amp_3F,3*F_base,max(0,0 nsec),0,0) else Amp_3F*step((0 nsec-time)-tinyreal)*sin(pi*0/180) endif 
+I_Source:SRC4  0 Synthetic_waveform Type="ItSine" I[1]=if (_tr_state == 0) then Amp_5F*exp(j*2*pi*(0/360-0 nsec*5*F_base-.25)-(time-0 nsec)*0)*step((time-0 nsec)+tinyreal) else 0 endif Freq[1]=5*F_base Idc=0 mA I_Tran=if (_tr_state == 1) then damped_sin(time,0,Amp_5F,5*F_base,max(0,0 nsec),0,0) else Amp_5F*step((0 nsec-time)-tinyreal)*sin(pi*0/180) endif 
+I_Source:SRC5  0 Synthetic_waveform Type="ItSine" I[1]=if (_tr_state == 0) then Amp_11F*exp(j*2*pi*(0/360-0 nsec*11*F_base-.25)-(time-0 nsec)*0)*step((time-0 nsec)+tinyreal) else 0 endif Freq[1]=11*F_base Idc=0 mA I_Tran=if (_tr_state == 1) then damped_sin(time,0,Amp_11F,11*F_base,max(0,0 nsec),0,0) else Amp_11F*step((0 nsec-time)-tinyreal)*sin(pi*0/180) endif 
+I_Source:SRC6  0 Synthetic_waveform Type="ItSine" I[1]=if (_tr_state == 0) then Amp_9F*exp(j*2*pi*(0/360-0 nsec*9*F_base-.25)-(time-0 nsec)*0)*step((time-0 nsec)+tinyreal) else 0 endif Freq[1]=9*F_base Idc=0 mA I_Tran=if (_tr_state == 1) then damped_sin(time,0,Amp_9F,9*F_base,max(0,0 nsec),0,0) else Amp_9F*step((0 nsec-time)-tinyreal)*sin(pi*0/180) endif 
+I_Source:SRC7  0 Synthetic_waveform Type="ItSine" I[1]=if (_tr_state == 0) then Amp_7F*exp(j*2*pi*(0/360-0 nsec*7*F_base-.25)-(time-0 nsec)*0)*step((time-0 nsec)+tinyreal) else 0 endif Freq[1]=7*F_base Idc=0 mA I_Tran=if (_tr_state == 1) then damped_sin(time,0,Amp_7F,7*F_base,max(0,0 nsec),0,0) else Amp_7F*step((0 nsec-time)-tinyreal)*sin(pi*0/180) endif 
+
+F_base=100 MHz
+
+Amp_1F=2/pi
+Amp_3F=2/(3*pi)
+Amp_5F=2/(5*pi)
+Amp_7F=2/(7*pi)
+Amp_9F=2/(9*pi)
+Amp_11F=2/(11*pi)
+Amp_13F=2/(13*pi)
+Amp_15F=2/(15*pi)
+Amp_17F=2/(17*pi)
+Amp_19F=2/(19*pi)
+Amp_21F=2/(21*pi)
+Amp_23F=2/(23*pi)
+Amp_25F=2/(25*pi)
+Amp_27F=2/(27*pi)
+Amp_29F=2/(29*pi)
+Amp_31F=2/(31*pi)
+Amp_33F=2/(33*pi)
+Amp_35F=2/(35*pi)
+Amp_37F=2/(37*pi)
+Amp_39F=2/(39*pi)
+Amp_41F=2/(41*pi)
+Amp_43F=2/(43*pi)
+Amp_45F=2/(45*pi)
+Amp_47F=2/(47*pi)
+Amp_49F=2/(49*pi)
+Amp_51F=2/(51*pi)
+Amp_53F=2/(53*pi)
+Amp_55F=2/(55*pi)
+Amp_57F=2/(57*pi)
+Amp_59F=2/(59*pi)
+Amp_61F=2/(61*pi)
+Amp_63F=2/(63*pi)
+Amp_65F=2/(65*pi)
+Amp_67F=2/(67*pi)
+Amp_69F=2/(69*pi)
+Amp_71F=2/(71*pi)

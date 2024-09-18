@@ -1,0 +1,84 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000009, day=000000000013, hour=000000000016, min=000000000014, sec=000000000050)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003977, lin=000000000078, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'mesh'
+	verbose=false
+	meshfileversion='R191'
+	$begin 'points'
+		box(min_x=-1.39700000000000e-03, min_y=-1.39700000000000e-03, min_z=-3.58140000000000e-05, max_x=1.39700000000000e-03, max_y=1.39700000000000e-03, max_z=1.79070000000000e-04)
+		min_d=2.79400000000000e-13
+		n_points=16
+		p[4: 1, -1.27000000000000e-03, -1.27000000000000e-03, 0.00000000000000e+00]
+		p[4: 2, -1.27000000000000e-03, 1.27000000000000e-03, 0.00000000000000e+00]
+		p[4: 3, 1.27000000000000e-03, 1.27000000000000e-03, 0.00000000000000e+00]
+		p[4: 4, 1.27000000000000e-03, -1.27000000000000e-03, 0.00000000000000e+00]
+		p[4: 5, 1.27000000000000e-03, -1.27000000000000e-03, 3.04800000000000e-05]
+		p[4: 6, -1.27000000000000e-03, 1.27000000000000e-03, 3.04800000000000e-05]
+		p[4: 7, 1.27000000000000e-03, 1.27000000000000e-03, 3.04800000000000e-05]
+		p[4: 8, -1.27000000000000e-03, -1.27000000000000e-03, 3.04800000000000e-05]
+		p[4: 9, 1.27000000000000e-03, 7.62000000000000e-05, 1.12776000000000e-04]
+		p[4: 10, 1.27000000000000e-03, -7.62000000000000e-05, 1.12776000000000e-04]
+		p[4: 11, -1.27000000000000e-03, -7.62000000000000e-05, 1.12776000000000e-04]
+		p[4: 12, -1.27000000000000e-03, 7.62000000000000e-05, 1.12776000000000e-04]
+		p[4: 13, 1.27000000000000e-03, 7.62000000000000e-05, 1.43256000000000e-04]
+		p[4: 14, 1.27000000000000e-03, -7.62000000000000e-05, 1.43256000000000e-04]
+		p[4: 15, -1.27000000000000e-03, 7.62000000000000e-05, 1.43256000000000e-04]
+		p[4: 16, -1.27000000000000e-03, -7.62000000000000e-05, 1.43256000000000e-04]
+	$end 'points'
+	$begin 'elements'
+		t[6: 1, 1, 2, 3, 106, 0]
+		t[6: 2, 1, 3, 4, 106, 0]
+		t[6: 3, 6, 5, 7, 107, 0]
+		t[6: 4, 5, 6, 8, 107, 0]
+		t[6: 5, 9, 10, 11, 108, 0]
+		t[6: 6, 9, 11, 12, 108, 0]
+		t[6: 7, 14, 13, 15, 109, 0]
+		t[6: 8, 14, 15, 16, 109, 0]
+		t[6: 9, 1, 4, 5, 110, 0]
+		t[6: 10, 5, 8, 1, 110, 0]
+		t[6: 11, 1, 8, 2, 111, 0]
+		t[6: 12, 8, 6, 2, 111, 0]
+		t[6: 13, 5, 4, 3, 112, 0]
+		t[6: 14, 5, 3, 7, 112, 0]
+		t[6: 15, 2, 6, 3, 113, 0]
+		t[6: 16, 6, 7, 3, 113, 0]
+		t[6: 17, 10, 16, 11, 114, 0]
+		t[6: 18, 16, 10, 14, 114, 0]
+		t[6: 19, 11, 16, 12, 115, 0]
+		t[6: 20, 12, 16, 15, 115, 0]
+		t[6: 21, 14, 10, 9, 116, 0]
+		t[6: 22, 14, 9, 13, 116, 0]
+		t[6: 23, 12, 15, 9, 117, 0]
+		t[6: 24, 13, 9, 15, 117, 0]
+	$end 'elements'
+	$begin 'facets'
+		f(name='unknown', type=2, f=106, object2did=-1, inside_solid_id=6, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=107, object2did=-1, inside_solid_id=6, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=108, object2did=-1, inside_solid_id=202, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=109, object2did=-1, inside_solid_id=202, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=110, object2did=-1, inside_solid_id=6, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=111, object2did=-1, inside_solid_id=6, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=112, object2did=-1, inside_solid_id=6, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=113, object2did=-1, inside_solid_id=6, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=114, object2did=-1, inside_solid_id=202, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=115, object2did=-1, inside_solid_id=202, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=116, object2did=-1, inside_solid_id=202, outside_solid_id=0, planar_flag=2)
+		f(name='unknown', type=2, f=117, object2did=-1, inside_solid_id=202, outside_solid_id=0, planar_flag=2)
+	$end 'facets'
+	$begin 'wires'
+	$end 'wires'
+$end 'mesh'
+$begin '$index$'
+	$begin '$index$'
+		mesh(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3977, lin=78, lvl=0)
+	$end '$index$'
+$end '$index$'

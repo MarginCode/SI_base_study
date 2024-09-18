@@ -1,0 +1,20 @@
+$begin 'MatrixData'
+	Type='DCL'
+	Frequency=1000000000
+	SolutionType='Adaptive'
+	Names(9, 8)
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(7.533879890851989e-10)
+			c(7.568840109510993e-10)
+		$end 'r0'
+		$begin 'r1'
+			c(7.568840109510993e-10)
+			c(1.971667021279084e-09)
+		$end 'r1'
+	$end 'Matrix'
+	TransitionRegionPreviousFreqs()
+	TransitionRegionCurrentFreqs()
+$end 'MatrixData'

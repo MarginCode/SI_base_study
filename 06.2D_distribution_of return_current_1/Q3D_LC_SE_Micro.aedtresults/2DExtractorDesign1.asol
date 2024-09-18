@@ -1,0 +1,436 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000009, day=000000000018, hour=000000000016, min=000000000020, sec=000000000031)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000013313, lin=000000000414, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock4'
+	SimSetupID=6
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'CGCurrentPassNum'
+		'CG.CP'(VID=33, Ver=0, P=14)
+	$end 'CGCurrentPassNum'
+	$begin 'CGCurrentMeshes'
+		IDDblMap(37, 1, 38, 2, 45, 3, 48, 4, 51, 5, 54, 6, 57, 7, 60, 8, 103, 9, 106, 10, 198, 11, 201, 12, 217, 13, 220, 14)
+		$begin 'DataMap'
+			VID=33
+			Ver=0
+			'CG.cmesh'(DblID=217, Dir='DV33_S6_V0_CG.cmesh217/')
+			'CG.cmesh'(DblID=220, Dir='DV33_S6_V0_CG.cmesh220/')
+		$end 'DataMap'
+	$end 'CGCurrentMeshes'
+	$begin 'RLCurrentPassNum'
+		'RL.CP'(VID=33, Ver=0, P=13)
+	$end 'RLCurrentPassNum'
+	$begin 'RLCurrentMeshes'
+		IDDblMap(63, 1, 64, 2, 71, 3, 74, 4, 77, 5, 80, 6, 83, 7, 86, 8, 89, 9, 110, 10, 113, 11, 205, 12, 224, 13)
+		$begin 'DataMap'
+			VID=33
+			Ver=0
+			'RL.cmesh'(DblID=205, Dir='DV33_S6_V0_RL.cmesh205/')
+			'RL.cmesh'(DblID=224, Dir='DV33_S6_V0_RL.cmesh224/')
+		$end 'DataMap'
+	$end 'RLCurrentMeshes'
+	$begin 'CapLastPassNumbers'
+		'Cap.LP'(VID=33, Ver=0, P=13)
+	$end 'CapLastPassNumbers'
+	$begin 'CondLastPassNumbers'
+		'Cond.LP'(VID=33, Ver=0, P=13)
+	$end 'CondLastPassNumbers'
+	$begin 'ResLastPassNumbers'
+		'Res.LP'(VID=33, Ver=0, P=12)
+	$end 'ResLastPassNumbers'
+	$begin 'IndLastPassNumbers'
+		'Ind.LP'(VID=33, Ver=0, P=12)
+	$end 'IndLastPassNumbers'
+	$begin 'Profiles'
+		PRF(VID=33, Ver=0, File='DV33_S6_V0.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=45520
+			MI(VID=33, Ver=0, Dir='DV33_S6_MI45520_V0.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=45521
+			MI(VID=33, Ver=0, Dir='DV33_S6_MI45521_V0.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeometryInfo'
+		MGEOM(VID=33, Ver=0, Dir='DV33_S6_V0.meshgeom/')
+	$end 'MeshGeometryInfo'
+$end 'SolutionBlock4'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=6, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock4'
+	'SolutionKey(SimSetup=6, Instance=\'SolutionDefinition\', Solution=7, VersionID=208)'='SolutionBlock8'
+	'SolutionKey(SimSetup=6, Instance=\'SolutionDefinition\', Solution=8, VersionID=0)'='SolutionBlock3'
+	'SolutionKey(SimSetup=6, Instance=\'T=\\\'1.2mil\\\' Tsub=\\\'3.2400000000000002mil\\\' w_t=\\\'6.0000000000000009mil\\\' xlen=\\\'100mil\\\' ylen=\\\'100mil\\\'\', Solution=-3, VersionID=0)'='SolutionBlock5'
+$end 'BlockMapName'
+$begin 'SolutionBlock5'
+	$begin '45520'
+		ConvSetupName='CGConv'
+		MaxPasses='50'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(tri=128, te=4.70798e-11, ee=0.00651686, p=1, tl=0.0101259, ce='(N/A, 0.0065169)', le=0)
+		c(tri=230, te=3.47807e-11, de=26.1239, ee=0.0035508, p=2, tl=0.00771597, dl=23.7995, ce='(26.124, 0.0035508)', le=0)
+		c(tri=350, te=3.06101e-11, de=11.9913, ee=0.008438060000000001, p=3, tl=0.00654831, dl=15.133, ce='(11.991, 0.0084381)', le=0)
+		c(tri=508, te=2.87187e-11, de=6.17889, ee=0.0173418, p=4, tl=0.00616899, dl=5.79272, ce='(6.1789, 0.017342)', le=0)
+		c(tri=686, te=2.81824e-11, de=1.86757, ee=0.00925231, p=5, tl=0.00604336, dl=2.03645, ce='(1.8676, 0.0092523)', le=0)
+		c(tri=892, te=2.79877e-11, de=0.690665, ee=0.00941113, p=6, tl=0.00598787, dl=0.918139, ce='(0.69067, 0.0094111)', le=0)
+		c(tri=1160, te=2.68526e-11, de=4.05588, ee=0.00459666, p=7, tl=0.14889, dl=2386.52, ce='(4.0559, 0.0045967)', le=0)
+		c(tri=1510, te=2.67628e-11, de=0.334301, ee=0.00516076, p=8, tl=0.148223, dl=0.447401, ce='(0.3343, 0.0051608)', le=0)
+		c(tri=1964, te=2.97784e-11, de=11.2679, ee=0.00268398, p=9, tl=5.65481e-06, dl=99.9962, ce='(11.268, 0.002684)', le=0)
+		c(tri=2558, te=2.97366e-11, de=0.140266, ee=0.00175953, p=10, tl=5.64265e-06, dl=0.214972, ce='(0.14027, 0.0017595)', le=0)
+		c(tri=3326, te=2.61243e-11, de=12.1478, ee=0.00116059, p=11, tl=0.594669, dl=10538700, ce='(12.148, 0.0011606)', le=0)
+		c(tri=4324, te=2.61073e-11, de=0.0649347, ee=0.00083364, p=12, tl=0.594068, dl=0.101104, ce='(0.064935, 0.00083364)', le=0)
+		c(tri=5622, te=2.60966e-11, de=0.0409111, ee=0.00047552, p=13, tl=0.593662, dl=0.06831139999999999, ce='(0.040911, 0.00047552)', le=0)
+	$end '45520'
+	$begin '45521'
+		ConvSetupName='RLConv'
+		MaxPasses='50'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(tl=12.1276, p=1, tri=128, te=4.24568e-08, le=0, ce='(N/A, 383.58)', ee=383.582)
+		c(tl=13.8924, p=2, tri=220, te=6.13952e-08, de=44.6062, dl=14.552, le=0, ce='(44.606, 124.56)', ee=124.561)
+		c(tl=19.0374, p=3, tri=356, te=6.694619999999999e-08, de=9.04144, dl=37.0347, le=0, ce='(9.0414, 44.075)', ee=44.0747)
+		c(tl=25.2332, p=4, tri=514, te=6.86046e-08, de=2.47728, dl=32.5457, le=0, ce='(2.4773, 18.406)', ee=18.4064)
+		c(tl=38.7144, p=5, tri=724, te=6.968280000000001e-08, de=1.57153, dl=53.4265, le=0, ce='(1.5715, 6.5464)', ee=6.54641)
+		c(tl=32.3198, p=6, tri=942, te=7.06059e-08, de=1.3248, dl=16.5174, le=0, ce='(1.3248, 2.6367)', ee=2.63668)
+		c(tl=35.4717, p=7, tri=1226, te=7.094749999999999e-08, de=0.483783, dl=9.75238, le=0, ce='(0.48378, 1.3676)', ee=1.36765)
+		c(tl=138.407, p=8, tri=1608, te=6.9497e-08, de=2.04445, dl=290.19, le=0, ce='(2.0444, 2.3878)', ee=2.38784)
+		c(tl=175.823, p=9, tri=2096, te=6.95659e-08, de=0.09908889999999999, dl=27.0334, le=0, ce='(0.099089, 1.4834)', ee=1.4834)
+		c(tl=2.16774, p=10, tri=2730, te=9.465349999999999e-08, de=36.0631, dl=98.7671, le=0, ce='(36.063, 0.028307)', ee=0.0283067)
+		c(tl=305.71, p=11, tri=3549, te=6.95696e-08, de=26.5007, dl=14002.7, le=0, ce='(26.501, 1.2294)', ee=1.22944)
+		c(tl=385.909, p=12, tri=4621, te=6.958370000000001e-08, de=0.0202521, dl=26.2337, le=0, ce='(0.020252, 0.78391)', ee=0.783914)
+	$end '45521'
+$end 'SolutionBlock5'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='2DExtractorDesign1'
+	VersionID=3
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=227
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='T=\'1.2mil\' Tsub=\'3.2400000000000002mil\' w_t=\'6.0000000000000009mil\' xlen=\'100mil\' ylen=\'100mil\'', ID=33)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=33, Ver=3, Dir='DV33_V3.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=45520
+			MI(VID=33, Ver=3, Dir='DV33_MI45520_V3.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=45521
+			MI(VID=33, Ver=3, Dir='DV33_MI45521_V3.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock8'
+	SolutionName='LastAdaptive'
+	SolutionID=7
+	V=208
+	$begin 'States'
+		F(VID=33, Ver=208)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=0
+			MCAP(VID=33, Ver=208, File='DV33_SOL7_MCAP0_V208.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=0
+			MCOND(VID=33, Ver=208, File='DV33_SOL7_MCOND0_V208.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MRES'
+		$begin 'SubData'
+			ID=0
+			MRES(VID=33, Ver=208, File='DV33_SOL7_MRES0_V208.sd')
+		$end 'SubData'
+	$end 'MRES'
+	$begin 'MIND'
+		$begin 'SubData'
+			ID=0
+			MIND(VID=33, Ver=208, File='DV33_SOL7_MIND0_V208.sd')
+		$end 'SubData'
+	$end 'MIND'
+	$begin 'CGSurfFields'
+		IDDblMap(40, 1000000000, 102, 28000000000, 197, 1000000, 216, 1000000000000)
+		$begin 'DataMap'
+			VID=33
+			Ver=208
+			CGF(DblID=216, Dir='DV33_SOL7_V208_F216_CGF/')
+		$end 'DataMap'
+	$end 'CGSurfFields'
+	$begin 'RLSurfFields'
+		IDDblMap(66, 1000000000, 109, 28000000000, 204, 1000000, 223, 1000000000000)
+		$begin 'DataMap'
+			VID=33
+			Ver=208
+			RLF(DblID=223, Dir='DV33_SOL7_V208_F223_RLF/')
+		$end 'DataMap'
+	$end 'RLSurfFields'
+$end 'SolutionBlock8'
+$begin 'SolutionBlock3'
+	SolutionName='AdaptivePass'
+	SolutionID=8
+	V=0
+	$begin 'States'
+		F(VID=33, Ver=0)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000, 1000000000, 28000000000, 1000000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=1
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP6_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP7_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP8_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP9_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP10_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP11_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP12_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=13
+			MCAP(VID=33, Ver=0, File='DV33_SOL8_MCAP13_V0.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=1
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND6_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND7_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND8_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND9_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND10_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND11_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND12_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=13
+			MCOND(VID=33, Ver=0, File='DV33_SOL8_MCOND13_V0.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MRES'
+		$begin 'SubData'
+			ID=1
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES6_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES7_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES8_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES9_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES10_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES11_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			MRES(VID=33, Ver=0, File='DV33_SOL8_MRES12_V0.sd')
+		$end 'SubData'
+	$end 'MRES'
+	$begin 'MIND'
+		$begin 'SubData'
+			ID=1
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND1_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND2_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND3_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND4_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND5_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND6_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND7_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND8_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND9_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND10_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=11
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND11_V0.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=12
+			MIND(VID=33, Ver=0, File='DV33_SOL8_MIND12_V0.sd')
+		$end 'SubData'
+	$end 'MIND'
+$end 'SolutionBlock3'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=2076, lin=59, lvl=0)
+		SolutionBlock5(pos=2663, lin=66, lvl=0)
+		SolutionBlock8(pos=6701, lin=136, lvl=0)
+		SolutionBlock3(pos=7973, lin=191, lvl=0)
+		SolutionBlock4(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=6000, lin=109, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=13313, lin=414, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                     

@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE 02#2erelationship_between_RiseTime_and_bandwidth_lib 02.relationship_between_RiseTime_and_bandwidth_lib
+ASSIGN 02#2erelationship_between_RiseTime_and_bandwidth_lib libMode shared

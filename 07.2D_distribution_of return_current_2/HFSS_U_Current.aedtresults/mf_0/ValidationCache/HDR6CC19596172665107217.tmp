@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='Air_ext=\'20mil\' T=\'1.2mil\' Tsub=\'3.2400000000000002mil\' U_len=\'280mil\' U_w=\'100mil\' w_t=\'6.0000000000000009mil\' xlen=\'400mil\' ylen=\'600mil\''
+		Status=true
+		FileName='VI6CC19596172665107218.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

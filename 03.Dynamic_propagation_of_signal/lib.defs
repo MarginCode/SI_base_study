@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE 03#2edynamic_propagation_of_signal_lib 03.dynamic_propagation_of_signal_lib
+ASSIGN 03#2edynamic_propagation_of_signal_lib libMode shared

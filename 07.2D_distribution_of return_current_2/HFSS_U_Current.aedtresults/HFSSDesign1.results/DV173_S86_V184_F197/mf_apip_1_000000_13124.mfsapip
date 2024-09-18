@@ -1,0 +1,68 @@
+$begin date_time_stamp
+	timesinceepock:1726652833
+$end date_time_stamp
+$begin sysinfo
+	os:win
+	cpuid:'AMD Ryzen 5 5600H with Radeon Graphics         '
+	cpumodel:NA
+	cpubrand:amd
+	cpuPhyCores:6
+	cpuLogCores:12
+	cpufreqkhz:0
+	cpucachelinesize:64
+	cpuestllcmb:64
+	cpuestgflops:408
+	cpuestbwkbps:51.2
+	numnumanodes:1
+	virtualmemkb:1.37439e+11
+	pagesizekb:4096
+$end sysinfo
+$begin matsolver
+	$begin matsolverinfo
+		solvertype:shared_memory
+		solverprecision:double
+		solversymmetry:complex_symm
+		matrixdim:66448
+		matrixbw:17.8245
+		matrixnnz:1184403
+		rootdim:2
+		mathlib:amd
+		nummpitasks:1
+		numthreadpermpitasks:0
+	$end matsolverinfo
+	$begin matsolveranalysis
+		analysysstatus:valid
+		numsupernodes:6378
+		factornnz:7586899
+		factorestflops:3305543066
+		fbsestflops:24228160
+		rootfactestflops:4
+		rootfbsestflops:2
+		analysistimesec:0.341876
+		analysismemkb:46152
+	$end matsolveranalysis
+	$begin matsolverfact
+		fatorizationstatus:valid
+		factorizationnumcores:4
+		factorizationtimesec:0.217438
+		factorizationmentotalkb:168745
+	$end matsolverfact
+	$begin matsolverfbs
+		fbstatus:valid
+		fbstype:fullsolve
+		fbsmt:false
+		fbsmrhs:false
+		fbsnumcores:4
+		fbsnumsolves:1
+		fbsavgsolvetime1solvesec:0.0169427
+		fbscputimesec:0.0169427
+		fbsmemorytotalkb:153760
+	$end matsolverfbs
+	$begin matsolverprofile
+		maxmemkb:168745
+		diskkb:0
+		totalrealtimesec:-1
+		totalcputimesec:-1
+		totaltimesec:-1
+	$end matsolverprofile
+$end matsolver

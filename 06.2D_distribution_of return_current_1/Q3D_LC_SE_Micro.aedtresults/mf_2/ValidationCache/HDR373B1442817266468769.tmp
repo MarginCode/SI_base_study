@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='T=\'1.2mil\' Tsub=\'3.2400000000000002mil\' w_t=\'6.0000000000000009mil\' xlen=\'100mil\' ylen=\'100mil\''
+		Status=true
+		FileName='VI373B14428172664687610.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

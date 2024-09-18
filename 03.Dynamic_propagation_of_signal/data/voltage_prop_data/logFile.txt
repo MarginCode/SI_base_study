@@ -1,0 +1,33 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Fri Sep 13 13:53:03 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\03.dynamic_propagation_of_signal\data"
+      Process ID: 11944
+
+
+COMPONENT : TL4
+    Characterizing to 1 GHz 
+
+COMPONENT : TL3
+    Characterizing to 1 GHz 
+
+COMPONENT : TL2
+    Characterizing to 1 GHz 
+
+COMPONENT : TL1
+    Characterizing to 1 GHz 
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <03.dynamic_propagation_of_signal_lib:voltage_prop:schematic>   time=(0 s->5 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.80 seconds.
+

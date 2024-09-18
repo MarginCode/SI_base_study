@@ -1,0 +1,188 @@
+$begin 'DesignData'
+	Version=242
+	$begin 'PartsInfo'
+		Part(6, true, 'plane', false, 'copper', 6, 7, 9, 10, 11, 8, 12, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 255, 128, 64, false)
+		Part(34, true, 'Core', true, 'Core_38', 6, 35, 37, 38, 39, 36, 40, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 0, 255, 0, false)
+		Part(144, true, 'Trace', false, 'copper', 10, 164, 154, 162, 163, 160, 161, 156, 157, 158, 159, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 255, 128, 64, false)
+		Part(226, true, 'AirBox', true, 'air', 6, 227, 229, 230, 231, 228, 232, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 0, 128, 255, false)
+		Part(254, false, 'P1', true, 'vacuum', 1, 264, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+		Part(266, false, 'P2', true, 'vacuum', 1, 276, true, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, false, false, -1, 143, 175, 143, false)
+	$end 'PartsInfo'
+	$begin 'FacesInfo'
+		Face(7, 6, 0.000154838, 50.8, true, 0, 0, 0.03048, 0, 0, 1, 4, 0.00508, -0.00762, 3.048e-05, 0.00508, 0.00762, 3.048e-05, -0.00508, 0.00762, 3.048e-05, -0.00508, -0.00762, 3.048e-05)
+		Face(8, 6, 0.000154838, 50.8, true, 0, 0, 0, -0, -0, -1, 4, 0.00508, -0.00762, 0, -0.00508, -0.00762, 0, -0.00508, 0.00762, 0, 0.00508, 0.00762, 0)
+		Face(9, 6, 3.09677e-07, 20.381, true, 0, -7.62, 0.01524, -0, -1, -0, 4, 0.00508, -0.00762, 3.048e-05, -0.00508, -0.00762, 3.048e-05, -0.00508, -0.00762, 0, 0.00508, -0.00762, 0)
+		Face(10, 6, 4.64515e-07, 30.541, true, -5.08, 0, 0.01524, -1, -0, -0, 4, -0.00508, -0.00762, 3.048e-05, -0.00508, 0.00762, 3.048e-05, -0.00508, 0.00762, 0, -0.00508, -0.00762, 0)
+		Face(11, 6, 3.09677e-07, 20.381, true, 0, 7.62, 0.01524, 0, 1, 0, 4, -0.00508, 0.00762, 3.048e-05, 0.00508, 0.00762, 3.048e-05, 0.00508, 0.00762, 0, -0.00508, 0.00762, 0)
+		Face(12, 6, 4.64515e-07, 30.541, true, 5.08, 0, 0.01524, 1, 0, 0, 4, 0.00508, 0.00762, 0, 0.00508, 0.00762, 3.048e-05, 0.00508, -0.00762, 3.048e-05, 0.00508, -0.00762, 0)
+		Face(35, 34, 0.000154838, 50.8, true, 0, 0, 0.112776, 0, 0, 1, 4, 0.00508, -0.00762, 0.000112776, 0.00508, 0.00762, 0.000112776, -0.00508, 0.00762, 0.000112776, -0.00508, -0.00762, 0.000112776)
+		Face(36, 34, 0.000154838, 50.8, true, 0, 0, 0.03048, -0, -0, -1, 4, 0.00508, -0.00762, 3.048e-05, -0.00508, -0.00762, 3.048e-05, -0.00508, 0.00762, 3.048e-05, 0.00508, 0.00762, 3.048e-05)
+		Face(37, 34, 8.36127e-07, 20.4846, true, 0, -7.62, 0.071628, -0, -1, -0, 4, 0.00508, -0.00762, 0.000112776, -0.00508, -0.00762, 0.000112776, -0.00508, -0.00762, 3.048e-05, 0.00508, -0.00762, 3.048e-05)
+		Face(38, 34, 1.25419e-06, 30.6446, true, -5.08, 0, 0.071628, -1, -0, -0, 4, -0.00508, -0.00762, 0.000112776, -0.00508, 0.00762, 0.000112776, -0.00508, 0.00762, 3.048e-05, -0.00508, -0.00762, 3.048e-05)
+		Face(39, 34, 8.36127e-07, 20.4846, true, 0, 7.62, 0.071628, 0, 1, 0, 4, -0.00508, 0.00762, 0.000112776, 0.00508, 0.00762, 0.000112776, 0.00508, 0.00762, 3.048e-05, -0.00508, 0.00762, 3.048e-05)
+		Face(40, 34, 1.25419e-06, 30.6446, true, 5.08, 0, 0.071628, 1, 0, 0, 4, 0.00508, 0.00762, 3.048e-05, 0.00508, 0.00762, 0.000112776, 0.00508, -0.00762, 0.000112776, 0.00508, -0.00762, 3.048e-05)
+		Face(154, 144, 4.64515e-09, 0.36576, true, -1.3462, -3.556, 0.128016, 9.95799e-17, -1, 1.60812e-16, 4, -0.00127, -0.003556, 0.000112776, -0.00127, -0.003556, 0.000143256, -0.0014224, -0.003556, 0.000143256, -0.0014224, -0.003556, 0.000112776)
+		Face(156, 144, 2.21419e-07, 14.5898, true, -1.4224, 0.0762, 0.128016, -1, -0, 1.83697e-16, 4, -0.0014224, -0.003556, 0.000112776, -0.0014224, -0.003556, 0.000143256, -0.0014224, 0.0037084, 0.000143256, -0.0014224, 0.0037084, 0.000112776)
+		Face(157, 144, 2.60129e-06, 34.4424, true, -2.00639e-16, 0.605367, 0.143256, 1.83697e-16, -0, 1, 8, -0.0014224, -0.003556, 0.000143256, -0.00127, -0.003556, 0.000143256, -0.00127, 0.003556, 0.000143256, 0.00127, 0.003556, 0.000143256, 0.00127, -0.003556, 0.000143256, 0.0014224, -0.003556, 0.000143256, 0.0014224, 0.0037084, 0.000143256, -0.0014224, 0.0037084, 0.000143256)
+		Face(158, 144, 2.16774e-07, 14.285, true, -1.27, -2.02052e-15, 0.128016, 1, -0, -1.83697e-16, 4, -0.00127, -0.003556, 0.000143256, -0.00127, -0.003556, 0.000112776, -0.00127, 0.003556, 0.000112776, -0.00127, 0.003556, 0.000143256)
+		Face(159, 144, 2.60129e-06, 34.4424, true, 1.6281e-15, 0.605367, 0.112776, -1.83697e-16, 0, -1, 8, -0.00127, -0.003556, 0.000112776, -0.0014224, -0.003556, 0.000112776, -0.0014224, 0.0037084, 0.000112776, 0.0014224, 0.0037084, 0.000112776, 0.0014224, -0.003556, 0.000112776, 0.00127, -0.003556, 0.000112776, 0.00127, 0.003556, 0.000112776, -0.00127, 0.003556, 0.000112776)
+		Face(160, 144, 8.67095e-08, 5.75056, true, -5.23803e-16, 3.7084, 0.128016, -0, 1, 1.83697e-16, 4, -0.0014224, 0.0037084, 0.000112776, -0.0014224, 0.0037084, 0.000143256, 0.0014224, 0.0037084, 0.000143256, 0.0014224, 0.0037084, 0.000112776)
+		Face(161, 144, 7.74192e-08, 5.14096, true, -3.64903e-16, 3.556, 0.128016, 0, -1, -1.83697e-16, 4, -0.00127, 0.003556, 0.000143256, -0.00127, 0.003556, 0.000112776, 0.00127, 0.003556, 0.000112776, 0.00127, 0.003556, 0.000143256)
+		Face(162, 144, 2.16774e-07, 14.285, true, 1.27, -1.46529e-15, 0.128016, -1, -0, -1.83697e-16, 4, 0.00127, 0.003556, 0.000112776, 0.00127, -0.003556, 0.000112776, 0.00127, -0.003556, 0.000143256, 0.00127, 0.003556, 0.000143256)
+		Face(163, 144, 2.21419e-07, 14.5898, true, 1.4224, 0.0762, 0.128016, 1, 0, 1.83697e-16, 4, 0.0014224, 0.0037084, 0.000143256, 0.0014224, -0.003556, 0.000143256, 0.0014224, -0.003556, 0.000112776, 0.0014224, 0.0037084, 0.000112776)
+		Face(164, 144, 4.64515e-09, 0.36576, true, 1.3462, -3.556, 0.128016, 2.22045e-16, -1, -1.60812e-16, 4, 0.0014224, -0.003556, 0.000112776, 0.0014224, -0.003556, 0.000143256, 0.00127, -0.003556, 0.000143256, 0.00127, -0.003556, 0.000112776)
+		Face(227, 226, 0.000154838, 50.8, true, 0, 0, 0.651256, 0, 0, 1, 4, 0.00508, -0.00762, 0.000651256, 0.00508, 0.00762, 0.000651256, -0.00508, 0.00762, 0.000651256, -0.00508, -0.00762, 0.000651256)
+		Face(228, 226, 0.000154838, 50.8, true, 0, 0, -0.508, -0, -0, -1, 4, 0.00508, -0.00762, -0.000508, -0.00508, -0.00762, -0.000508, -0.00508, 0.00762, -0.000508, 0.00508, 0.00762, -0.000508)
+		Face(229, 226, 1.1778e-05, 22.6385, true, 0, -7.62, 0.071628, -0, -1, -0, 4, 0.00508, -0.00762, 0.000651256, -0.00508, -0.00762, 0.000651256, -0.00508, -0.00762, -0.000508, 0.00508, -0.00762, -0.000508)
+		Face(230, 226, 1.76671e-05, 32.7985, true, -5.08, 0, 0.071628, -1, -0, -0, 4, -0.00508, -0.00762, 0.000651256, -0.00508, 0.00762, 0.000651256, -0.00508, 0.00762, -0.000508, -0.00508, -0.00762, -0.000508)
+		Face(231, 226, 1.1778e-05, 22.6385, true, 0, 7.62, 0.071628, 0, 1, 0, 4, -0.00508, 0.00762, 0.000651256, 0.00508, 0.00762, 0.000651256, 0.00508, 0.00762, -0.000508, -0.00508, 0.00762, -0.000508)
+		Face(232, 226, 1.76671e-05, 32.7985, true, 5.08, 0, 0.071628, 1, 0, 0, 4, 0.00508, 0.00762, -0.000508, 0.00508, 0.00762, 0.000651256, 0.00508, -0.00762, 0.000651256, 0.00508, -0.00762, -0.000508)
+		Face(264, 254, 1.25419e-08, 0.469392, true, -1.3462, -3.556, 0.071628, -9.95799e-17, 1, -1.60812e-16, 4, -0.00127, -0.003556, 0.000112776, -0.00127, -0.003556, 3.048e-05, -0.0014224, -0.003556, 3.048e-05, -0.0014224, -0.003556, 0.000112776)
+		Face(276, 266, 1.25419e-08, 0.469392, true, 1.3462, -3.556, 0.071628, 9.95799e-17, -1, 1.60812e-16, 4, 0.00127, -0.003556, 0.000112776, 0.00127, -0.003556, 3.048e-05, 0.0014224, -0.003556, 3.048e-05, 0.0014224, -0.003556, 0.000112776)
+	$end 'FacesInfo'
+	$begin 'PartAddtionalPiecesInfo'
+		$begin 'Bodies'
+		$end 'Bodies'
+		$begin 'Faces'
+		$end 'Faces'
+	$end 'PartAddtionalPiecesInfo'
+	$begin 'DesignGeometryInfo'
+		ModelUnit='mm'
+		ModelerType=2
+		MinDimensionInModelUnits=1e-06
+		MaxDimensionInModelUnits=10000
+		GlobalCSID=1
+		RegionID=-1
+		PreprocessForwardIdStart=277
+		PreprocessForwardIdEnd=277
+		PreprocessBackwardIdStart=2147483647
+		PreprocessBackwardIdEnd=2147483647
+	$end 'DesignGeometryInfo'
+	$begin 'Point3DDefinitionInfo'
+	$end 'Point3DDefinitionInfo'
+	$begin 'Plane3DDefinitionInfo'
+		Plane(-4, 'Global:XY', 1, -1, true, 3080308, 0, 0, 0, 0, 0, 1)
+		Plane(-3, 'Global:YZ', 1, -1, true, 6881387, 0, 0, 0, 1, 0, 0)
+		Plane(-2, 'Global:XZ', 1, -1, true, 6029428, 0, 0, 0, 0, 1, 0)
+	$end 'Plane3DDefinitionInfo'
+	$begin 'CoordinateSystemInfo'
+		CoordinateSystem(1, 'Global', -1, false, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+	$end 'CoordinateSystemInfo'
+	$begin 'ComponentDefinitionInfo'
+	$end 'ComponentDefinitionInfo'
+	$begin 'ComponentInstanceInfo'
+	$end 'ComponentInstanceInfo'
+	$begin 'GeometryEntityListOperationInfo'
+		$begin 'EntityList'
+			ID=2
+			Name='AllObjects'
+			$begin 'GeometryEntityListParameters'
+				EntityType='Object'
+				EntityList(6, 34, 144, 226, 254, 266)
+			$end 'GeometryEntityListParameters'
+		$end 'EntityList'
+	$end 'GeometryEntityListOperationInfo'
+	$begin 'MaterialManager'
+		$begin 'ProjectMaterials'
+			$begin 'Core_38'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=27
+						Green=110
+						Blue=76
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='3.8'
+				dielectric_loss_tangent='0.02'
+				thermal_conductivity='0.294'
+				mass_density='1900'
+				specific_heat='1150'
+				youngs_modulus='11000000000'
+				poissons_ratio='0.28'
+				thermal_expansion_coefficient='1.5e-05'
+			$end 'Core_38'
+			$begin 'air'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.95
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1.0006'
+				permeability='1.0000004'
+				thermal_conductivity='0.0261'
+				mass_density='1.1614'
+				specific_heat='1005'
+				thermal_expansion_coefficient='0.00333'
+				$begin 'thermal_material_type'
+					property_type='ChoiceProperty'
+					Choice='Fluid'
+				$end 'thermal_material_type'
+				diffusivity='2.88e-05'
+				molecular_mass='0.028966'
+				viscosity='1.84e-05'
+				material_refractive_index='1.000293'
+				$begin 'clarity_type'
+					property_type='ChoiceProperty'
+					Choice='Transparent'
+				$end 'clarity_type'
+			$end 'air'
+			$begin 'copper'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=242
+						Green=140
+						Blue=102
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permeability='0.999991'
+				conductivity='58000000'
+				thermal_conductivity='400'
+				mass_density='8933'
+				specific_heat='385'
+				youngs_modulus='120000000000'
+				poissons_ratio='0.38'
+				thermal_expansion_coefficient='1.77e-05'
+			$end 'copper'
+			$begin 'vacuum'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=230
+						Green=230
+						Blue=230
+						Transparency=0.95
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				permittivity='1'
+			$end 'vacuum'
+		$end 'ProjectMaterials'
+		$begin 'InternalPrivateMaterials'
+		$end 'InternalPrivateMaterials'
+	$end 'MaterialManager'
+$end 'DesignData'

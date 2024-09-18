@@ -1,0 +1,20 @@
+$begin 'MatrixData'
+	Type='ACR'
+	Frequency=1000000000
+	SolutionType='Adaptive'
+	Names(9, 8)
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.01184522069253035)
+			c(0.01334330237670404)
+		$end 'r0'
+		$begin 'r1'
+			c(0.01334330237670404)
+			c(0.10473968295615)
+		$end 'r1'
+	$end 'Matrix'
+	TransitionRegionPreviousFreqs()
+	TransitionRegionCurrentFreqs()
+$end 'MatrixData'

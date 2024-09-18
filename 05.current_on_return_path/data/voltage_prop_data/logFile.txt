@@ -1,0 +1,39 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Mon Sep 16 15:49:05 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\05.current_on_return_path\data"
+      Process ID: 11124
+
+Warning detected by hpeesofsim during TRAN analysis 'Tran1'.
+    Extremely wide lines encountered in `CLin3'.   Either wait or interupt !
+
+Warning detected by hpeesofsim during TRAN analysis 'Tran1'.
+    Extremely wide lines encountered in `CLin2'.   Either wait or interupt !
+
+Warning detected by hpeesofsim during TRAN analysis 'Tran1'.
+    Extremely wide lines encountered in `CLin1'.   Either wait or interupt !
+
+
+COMPONENT : CLin3
+    Characterizing to 1 GHz 
+
+COMPONENT : CLin2
+    Characterizing to 1 GHz 
+
+COMPONENT : CLin1
+    Characterizing to 1 GHz 
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <05.current_on_return_path_lib:voltage_prop:schematic>   time=(0 s->5 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     9.88 seconds.
+
