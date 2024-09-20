@@ -1,0 +1,11 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	wp='100mil'
+	wt='6mil'
+	sub='7.2mil'
+	T='1.2mil'
+	gap='18mil'
+	sub_top='30mil'
+$end 'VariableValues'

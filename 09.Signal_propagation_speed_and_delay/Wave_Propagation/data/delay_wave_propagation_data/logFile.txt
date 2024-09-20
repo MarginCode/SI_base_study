@@ -1,0 +1,35 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Fri Sep 20 23:35:00 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\09.Signal_propagation_speed_and_delay\Wave_Propagation\data"
+      Process ID: 12696
+
+
+COMPONENT : TL1
+    Characterizing to 1 GHz 
+
+    Use an adaptive sample spacing of 7.812 MHz.
+
+    S-parameter passivity is enforced.
+
+COMPONENT : TL2
+    Characterizing to 1 GHz 
+
+    Use an adaptive sample spacing of 15.62 MHz.
+
+    S-parameter passivity is enforced.
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <Wave_Propagation_lib:delay_wave_propagation:schematic>   time=(0 s->5 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.71 seconds.
+

@@ -1,0 +1,352 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002024, month=000000000009, day=000000000021, hour=000000000001, min=000000000012, sec=000000000033)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000012571, lin=000000000328, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock92'
+	SimSetupID=13
+	SimSetupName='Setup1'
+	VersionID=1086
+	SolveSetupID=0
+	$begin 'CGCurrentPassNum'
+		'CG.CP'(VID=1085, Ver=1086, P=7)
+	$end 'CGCurrentPassNum'
+	$begin 'CGCurrentMeshes'
+		IDDblMap(45, 1, 46, 2, 53, 3, 56, 4, 59, 5, 62, 6, 65, 7, 68, 8, 176, 9)
+		$begin 'DataMap'
+			VID=1085
+			Ver=1086
+			'CG.cmesh'(DblID=62, Dir='DV1085_S13_V1086_CG.cmesh62/')
+			'CG.cmesh'(DblID=65, Dir='DV1085_S13_V1086_CG.cmesh65/')
+		$end 'DataMap'
+	$end 'CGCurrentMeshes'
+	$begin 'RLCurrentPassNum'
+		'RL.CP'(VID=1085, Ver=1086, P=7)
+	$end 'RLCurrentPassNum'
+	$begin 'RLCurrentMeshes'
+		IDDblMap(71, 1, 72, 2, 79, 3, 82, 4, 85, 5, 88, 6, 91, 7, 94, 8, 97, 9, 100, 10, 179, 11, 375, 12)
+		$begin 'DataMap'
+			VID=1085
+			Ver=1086
+			'RL.cmesh'(DblID=88, Dir='DV1085_S13_V1086_RL.cmesh88/')
+			'RL.cmesh'(DblID=91, Dir='DV1085_S13_V1086_RL.cmesh91/')
+		$end 'DataMap'
+	$end 'RLCurrentMeshes'
+	$begin 'CapLastPassNumbers'
+		'Cap.LP'(VID=1085, Ver=1086, P=6)
+	$end 'CapLastPassNumbers'
+	$begin 'CondLastPassNumbers'
+		'Cond.LP'(VID=1085, Ver=1086, P=6)
+	$end 'CondLastPassNumbers'
+	$begin 'ResLastPassNumbers'
+		'Res.LP'(VID=1085, Ver=1086, P=6)
+	$end 'ResLastPassNumbers'
+	$begin 'IndLastPassNumbers'
+		'Ind.LP'(VID=1085, Ver=1086, P=6)
+	$end 'IndLastPassNumbers'
+	$begin 'Profiles'
+		PRF(VID=1085, Ver=1086, File='DV1085_S13_V1086.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=45520
+			MI(VID=1085, Ver=1086, Dir='DV1085_S13_MI45520_V1086.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=45521
+			MI(VID=1085, Ver=1086, Dir='DV1085_S13_MI45521_V1086.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeometryInfo'
+		MGEOM(VID=1085, Ver=1086, Dir='DV1085_S13_V1086.meshgeom/')
+	$end 'MeshGeometryInfo'
+$end 'SolutionBlock92'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=13, Instance=\'SetupDefinition\', Solution=-1, VersionID=1086)'='SolutionBlock92'
+	'SolutionKey(SimSetup=13, Instance=\'SolutionDefinition\', Solution=14, VersionID=1086)'='SolutionBlock90'
+	'SolutionKey(SimSetup=13, Instance=\'SolutionDefinition\', Solution=15, VersionID=1086)'='SolutionBlock91'
+	'SolutionKey(SimSetup=13, Instance=\'gap=\\\'18mil\\\' sub=\\\'7.2000000000000002mil\\\' sub_top=\\\'30mil\\\' T=\\\'1.2mil\\\' wp=\\\'100mil\\\' wt=\\\'6.0000000000000009mil\\\'\', Solution=-3, VersionID=1086)'='SolutionBlock93'
+$end 'BlockMapName'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='2DExtractorDesign1'
+	VersionID=1086
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1159
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='gap=\'10mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=544)
+		Map(V='gap=\'11mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=545)
+		Map(V='gap=\'12.000000000000002mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=539)
+		Map(V='gap=\'13mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=546)
+		Map(V='gap=\'14mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=547)
+		Map(V='gap=\'15mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=548)
+		Map(V='gap=\'16mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=549)
+		Map(V='gap=\'17mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=550)
+		Map(V='gap=\'18mil\' sub=\'3.2400000000000002mil\' sub_top=\'7.2000000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=782)
+		Map(V='gap=\'18mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=540)
+		Map(V='gap=\'18mil\' sub=\'7.2000000000000002mil\' sub_top=\'30mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=1085)
+		Map(V='gap=\'18mil\' sub=\'7.2000000000000002mil\' sub_top=\'7.2000000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=1009)
+		Map(V='gap=\'6.0000000000000009mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=538)
+		Map(V='gap=\'7mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=541)
+		Map(V='gap=\'8mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=542)
+		Map(V='gap=\'9mil\' sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=543)
+		Map(V='sub=\'10mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=401)
+		Map(V='sub=\'11mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=402)
+		Map(V='sub=\'12.000000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=403)
+		Map(V='sub=\'3.0000000000000004mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=394)
+		Map(V='sub=\'3.2400000000000002mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=404)
+		Map(V='sub=\'4mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=395)
+		Map(V='sub=\'5mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=396)
+		Map(V='sub=\'6.0000000000000009mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=397)
+		Map(V='sub=\'7mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=398)
+		Map(V='sub=\'8mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=399)
+		Map(V='sub=\'9mil\' T=\'1.2mil\' wp=\'100mil\' wt=\'6.0000000000000009mil\'', ID=400)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=1085, Ver=1086, Dir='DV1085_V1086.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=45520
+			MI(VID=1085, Ver=1086, Dir='DV1085_MI45520_V1086.sd/')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=45521
+			MI(VID=1085, Ver=1086, Dir='DV1085_MI45521_V1086.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock93'
+	$begin '45520'
+		ConvSetupName='CGConv'
+		MaxPasses='50'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(tri=144, ee=0.0581332, p=1, ce='(N/A, 0.058133)', tl=0.00045001, le=0, te=3.70931e-11)
+		c(tri=244, ee=0.0285422, dl=19.8249, p=2, ce='(19.861, 0.028542)', tl=0.000360796, le=0, de=19.8608, te=2.97261e-11)
+		c(tri=370, ee=0.0164506, dl=3.81718, p=3, ce='(3.8178, 0.016451)', tl=0.000347024, le=0, de=3.81785, te=2.85912e-11)
+		c(tri=542, ee=0.0130391, dl=1.77152, p=4, ce='(1.7719, 0.013039)', tl=0.000340876, le=0, de=1.7719, te=2.80846e-11)
+		c(tri=758, ee=0.00349847, dl=0.685477, p=5, ce='(0.68565, 0.0034985)', tl=0.00033854, le=0, de=0.6856449999999999, te=2.78921e-11)
+		c(tri=1044, ee=0.00504716, dl=0.471392, p=6, ce='(0.47146, 0.0050472)', tl=0.000336944, le=0, de=0.471463, te=2.77606e-11)
+	$end '45520'
+	$begin '45521'
+		ConvSetupName='RLConv'
+		MaxPasses='50'
+		MinPasses='1'
+		ConvTarget='1'
+		ConvTargetConsecPasses='N/A'
+		ConvCurrentConsecPasses='N/A'
+		c(le=0, tri=144, ee=70.66030000000001, tl=9.490729999999999, ce='(N/A, 70.66)', te=8.050209999999999e-08, p=1)
+		c(le=0, tri=242, ee=22.3019, de=20.1634, dl=41.5981, tl=5.54277, ce='(20.163, 22.302)', te=9.67341e-08, p=2)
+		c(le=0, tri=378, ee=8.09731, de=5.71548, dl=5.49829, tl=5.84753, ce='(5.7155, 8.0973)', te=1.02263e-07, p=3)
+		c(le=0, tri=546, ee=1.74897, de=2.50268, dl=16.2796, tl=4.89557, ce='(2.5027, 1.749)', te=1.04822e-07, p=4)
+		c(le=0, tri=774, ee=0.423507, de=0.958384, dl=3.86743, tl=4.70624, ce='(0.95838, 0.42351)', te=1.05827e-07, p=5)
+		c(le=0, tri=1060, ee=0.21234, de=0.0361193, dl=5.18893, tl=4.46204, ce='(0.036119, 0.21234)', te=1.05865e-07, p=6)
+	$end '45521'
+$end 'SolutionBlock93'
+$begin 'SolutionBlock90'
+	SolutionName='LastAdaptive'
+	SolutionID=14
+	V=1086
+	$begin 'States'
+		F(VID=1085, Ver=1086)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(50000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=0
+			MCAP(VID=1085, Ver=1086, File='DV1085_SOL14_MCAP0_V1086.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=0
+			MCOND(VID=1085, Ver=1086, File='DV1085_SOL14_MCOND0_V1086.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MRES'
+		$begin 'SubData'
+			ID=0
+			MRES(VID=1085, Ver=1086, File='DV1085_SOL14_MRES0_V1086.sd')
+		$end 'SubData'
+	$end 'MRES'
+	$begin 'MIND'
+		$begin 'SubData'
+			ID=0
+			MIND(VID=1085, Ver=1086, File='DV1085_SOL14_MIND0_V1086.sd')
+		$end 'SubData'
+	$end 'MIND'
+	$begin 'CGSurfFields'
+		IDDblMap(48, 1000000000, 791, 50000000)
+		$begin 'DataMap'
+			VID=1085
+			Ver=1086
+			CGF(DblID=791, Dir='DV1085_SOL14_V1086_F791_CGF/')
+		$end 'DataMap'
+	$end 'CGSurfFields'
+	$begin 'RLSurfFields'
+		IDDblMap(74, 1000000000, 792, 50000000)
+		$begin 'DataMap'
+			VID=1085
+			Ver=1086
+			RLF(DblID=792, Dir='DV1085_SOL14_V1086_F792_RLF/')
+		$end 'DataMap'
+	$end 'RLSurfFields'
+$end 'SolutionBlock90'
+$begin 'SolutionBlock91'
+	SolutionName='AdaptivePass'
+	SolutionID=15
+	V=1086
+	$begin 'States'
+		F(VID=1085, Ver=1086)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(50000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	SweepID=-1
+	$begin 'MCAP'
+		$begin 'SubData'
+			ID=1
+			MCAP(VID=1085, Ver=1086, File='DV1085_SOL15_MCAP1_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCAP(VID=1085, Ver=1086, File='DV1085_SOL15_MCAP2_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MCAP(VID=1085, Ver=1086, File='DV1085_SOL15_MCAP3_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MCAP(VID=1085, Ver=1086, File='DV1085_SOL15_MCAP4_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MCAP(VID=1085, Ver=1086, File='DV1085_SOL15_MCAP5_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MCAP(VID=1085, Ver=1086, File='DV1085_SOL15_MCAP6_V1086.sd')
+		$end 'SubData'
+	$end 'MCAP'
+	$begin 'MCOND'
+		$begin 'SubData'
+			ID=1
+			MCOND(VID=1085, Ver=1086, File='DV1085_SOL15_MCOND1_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MCOND(VID=1085, Ver=1086, File='DV1085_SOL15_MCOND2_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MCOND(VID=1085, Ver=1086, File='DV1085_SOL15_MCOND3_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MCOND(VID=1085, Ver=1086, File='DV1085_SOL15_MCOND4_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MCOND(VID=1085, Ver=1086, File='DV1085_SOL15_MCOND5_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MCOND(VID=1085, Ver=1086, File='DV1085_SOL15_MCOND6_V1086.sd')
+		$end 'SubData'
+	$end 'MCOND'
+	$begin 'MRES'
+		$begin 'SubData'
+			ID=1
+			MRES(VID=1085, Ver=1086, File='DV1085_SOL15_MRES1_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MRES(VID=1085, Ver=1086, File='DV1085_SOL15_MRES2_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MRES(VID=1085, Ver=1086, File='DV1085_SOL15_MRES3_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MRES(VID=1085, Ver=1086, File='DV1085_SOL15_MRES4_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MRES(VID=1085, Ver=1086, File='DV1085_SOL15_MRES5_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MRES(VID=1085, Ver=1086, File='DV1085_SOL15_MRES6_V1086.sd')
+		$end 'SubData'
+	$end 'MRES'
+	$begin 'MIND'
+		$begin 'SubData'
+			ID=1
+			MIND(VID=1085, Ver=1086, File='DV1085_SOL15_MIND1_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			MIND(VID=1085, Ver=1086, File='DV1085_SOL15_MIND2_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			MIND(VID=1085, Ver=1086, File='DV1085_SOL15_MIND3_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			MIND(VID=1085, Ver=1086, File='DV1085_SOL15_MIND4_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			MIND(VID=1085, Ver=1086, File='DV1085_SOL15_MIND5_V1086.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			MIND(VID=1085, Ver=1086, File='DV1085_SOL15_MIND6_V1086.sd')
+		$end 'SubData'
+	$end 'MIND'
+$end 'SolutionBlock91'
+$begin 'OptimetricsResults'
+$end 'OptimetricsResults'
+$begin 'ResponseSurfaceCache'
+	ResponseSurfaceCache()
+$end 'ResponseSurfaceCache'
+$begin '$index$'
+	$begin '$index$'
+		ResponseSurfaceCache(pos=12489, lin=325, lvl=0)
+		BlockMapName(pos=2122, lin=59, lvl=0)
+		SolutionBlock93(pos=6415, lin=119, lvl=0)
+		SolutionBlock90(pos=8181, lin=149, lvl=0)
+		SolutionBlock91(pos=9423, lin=204, lvl=0)
+		SolutionBlock92(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=2745, lin=66, lvl=0)
+		OptimetricsResults(pos=12435, lin=323, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=12571, lin=328, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

@@ -1,0 +1,18 @@
+$begin 'MatrixData'
+	Frequency=1000000000
+	SolutionType='Adaptive'
+	Names(5, 11)
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.0168130492043645)
+			c(-0.0001667358441454896)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.0001667358441454896)
+			c(0.01653713467098076)
+		$end 'r1'
+	$end 'Matrix'
+	Type='CondMatrix'
+$end 'MatrixData'

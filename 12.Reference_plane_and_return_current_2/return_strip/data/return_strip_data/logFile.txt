@@ -1,0 +1,33 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sat Sep 21 01:40:47 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\12.Reference_plane_and_return_current_2\return_strip\data"
+      Process ID: 9956
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 3
+
+
+COMPONENT : CLin3
+    Characterizing to 1 GHz 
+
+COMPONENT : CLin2
+    Characterizing to 1 GHz 
+
+COMPONENT : CLin1
+    Characterizing to 1 GHz 
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <return_strip_lib:return_strip:schematic>   time=(0 s->3 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     1.82 seconds.
+

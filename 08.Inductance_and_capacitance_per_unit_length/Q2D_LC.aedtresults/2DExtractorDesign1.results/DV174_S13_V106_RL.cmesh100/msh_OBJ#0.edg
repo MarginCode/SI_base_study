@@ -1,0 +1,518 @@
+Edge 23 24 NumFc 1 -23 
+Edge 25 24 NumFc 1 -24 
+Edge 25 26 NumFc 1 -25 
+Edge 52 53 NumFc 1 -52 
+Edge 27 26 NumFc 1 -26 
+Edge 2 3 NumFc 1 -2 
+Edge 27 28 NumFc 1 -27 
+Edge 51 52 NumFc 1 -51 
+Edge 53 54 NumFc 1 -53 
+Edge 54 37 NumFc 1 -54 
+Edge 44 45 NumFc 1 -44 
+Edge 1 18 NumFc 1 -18 
+Edge 38 39 NumFc 1 -38 
+Edge 37 38 NumFc 1 -37 
+Edge 32 33 NumFc 1 -32 
+Edge 4 3 NumFc 1 -3 
+Edge 28 29 NumFc 1 -28 
+Edge 30 29 NumFc 1 -29 
+Edge 31 32 NumFc 1 -31 
+Edge 30 31 NumFc 1 -30 
+Edge 46 45 NumFc 1 -45 
+Edge 11 12 NumFc 1 -11 
+Edge 12 13 NumFc 1 -12 
+Edge 18 17 NumFc 1 -17 
+Edge 4 5 NumFc 1 -4 
+Edge 51 50 NumFc 1 -50 
+Edge 7 8 NumFc 1 -7 
+Edge 33 34 NumFc 1 -33 
+Edge 35 34 NumFc 1 -34 
+Edge 19 36 NumFc 1 -36 
+Edge 36 35 NumFc 1 -35 
+Edge 39 40 NumFc 1 -39 
+Edge 9 8 NumFc 1 -8 
+Edge 15 14 NumFc 1 -14 
+Edge 14 13 NumFc 1 -13 
+Edge 6 7 NumFc 1 -6 
+Edge 5 6 NumFc 1 -5 
+Edge 48 49 NumFc 1 -48 
+Edge 50 49 NumFc 1 -49 
+Edge 47 48 NumFc 1 -47 
+Edge 46 47 NumFc 1 -46 
+Edge 41 42 NumFc 1 -41 
+Edge 40 41 NumFc 1 -40 
+Edge 43 44 NumFc 1 -43 
+Edge 42 43 NumFc 1 -42 
+Edge 15 16 NumFc 1 -15 
+Edge 17 16 NumFc 1 -16 
+Edge 19 20 NumFc 1 -19 
+Edge 20 21 NumFc 1 -20 
+Edge 23 22 NumFc 1 -22 
+Edge 22 21 NumFc 1 -21 
+Edge 221 222 NumFc 1 36 
+Edge 222 71 NumFc 1 36 
+Edge 223 224 NumFc 2 33 32 
+Edge 224 225 NumFc 2 33 32 
+Edge 225 151 NumFc 2 33 32 
+Edge 249 250 NumFc 1 98 
+Edge 10 265 NumFc 1 -9 
+Edge 265 9 NumFc 1 -9 
+Edge 284 285 NumFc 1 98 
+Edge 316 203 NumFc 1 10 
+Edge 330 316 NumFc 1 10 
+Edge 203 331 NumFc 1 10 
+Edge 331 128 NumFc 1 10 
+Edge 339 109 NumFc 1 18 
+Edge 353 339 NumFc 1 18 
+Edge 364 368 NumFc 1 24 
+Edge 368 73 NumFc 1 24 
+Edge 1 375 NumFc 1 -1 
+Edge 375 2 NumFc 1 -1 
+Edge 407 152 NumFc 1 106 
+Edge 10 473 NumFc 1 -10 
+Edge 473 11 NumFc 1 -10 
+Edge 485 205 NumFc 1 66 
+Edge 262 502 NumFc 1 94 
+Edge 502 164 NumFc 1 94 
+Edge 151 514 NumFc 2 33 32 
+Edge 514 515 NumFc 2 33 32 
+Edge 515 516 NumFc 2 33 32 
+Edge 516 81 NumFc 2 33 32 
+Edge 62 532 NumFc 1 46 
+Edge 535 237 NumFc 1 56 
+Edge 549 303 NumFc 1 64 
+Edge 558 73 NumFc 1 26 
+Edge 370 560 NumFc 2 29 28 
+Edge 76 563 NumFc 1 94 
+Edge 563 262 NumFc 1 94 
+Edge 164 566 NumFc 1 94 
+Edge 566 513 NumFc 1 94 
+Edge 568 353 NumFc 1 18 
+Edge 570 358 NumFc 1 76 
+Edge 573 407 NumFc 1 106 
+Edge 440 574 NumFc 1 86 
+Edge 337 576 NumFc 1 80 
+Edge 70 580 NumFc 1 36 
+Edge 580 221 NumFc 1 36 
+Edge 70 581 NumFc 1 30 
+Edge 585 223 NumFc 2 33 32 
+Edge 158 591 NumFc 1 54 
+Edge 174 601 NumFc 1 54 
+Edge 607 96 NumFc 1 10 
+Edge 128 609 NumFc 1 10 
+Edge 609 607 NumFc 1 10 
+Edge 446 614 NumFc 2 41 40 
+Edge 624 458 NumFc 2 41 40 
+Edge 98 626 NumFc 1 46 
+Edge 627 628 NumFc 1 46 
+Edge 628 99 NumFc 1 46 
+Edge 489 631 NumFc 1 78 
+Edge 631 66 NumFc 1 78 
+Edge 237 632 NumFc 1 56 
+Edge 632 238 NumFc 1 56 
+Edge 67 638 NumFc 1 78 
+Edge 638 455 NumFc 1 78 
+Edge 141 643 NumFc 1 24 
+Edge 643 364 NumFc 1 24 
+Edge 144 645 NumFc 2 29 28 
+Edge 150 648 NumFc 1 64 
+Edge 650 86 NumFc 1 64 
+Edge 205 653 NumFc 1 66 
+Edge 653 206 NumFc 1 66 
+Edge 657 659 NumFc 1 24 
+Edge 659 141 NumFc 1 24 
+Edge 661 144 NumFc 2 29 28 
+Edge 72 665 NumFc 1 24 
+Edge 665 657 NumFc 1 24 
+Edge 358 670 NumFc 1 76 
+Edge 111 672 NumFc 1 18 
+Edge 672 112 NumFc 1 18 
+Edge 197 674 NumFc 2 13 12 
+Edge 674 198 NumFc 2 13 12 
+Edge 83 676 NumFc 2 29 28 
+Edge 688 56 NumFc 1 70 
+Edge 451 703 NumFc 1 54 
+Edge 77 706 NumFc 1 86 
+Edge 706 440 NumFc 1 86 
+Edge 80 716 NumFc 2 43 42 
+Edge 121 719 NumFc 1 86 
+Edge 719 656 NumFc 1 86 
+Edge 149 724 NumFc 1 66 
+Edge 724 725 NumFc 1 66 
+Edge 725 726 NumFc 1 66 
+Edge 726 496 NumFc 1 66 
+Edge 732 337 NumFc 1 80 
+Edge 99 738 NumFc 1 46 
+Edge 738 739 NumFc 1 46 
+Edge 739 740 NumFc 1 46 
+Edge 740 100 NumFc 1 46 
+Edge 85 747 NumFc 1 78 
+Edge 747 162 NumFc 1 78 
+Edge 140 750 NumFc 1 78 
+Edge 750 85 NumFc 1 78 
+Edge 753 754 NumFc 1 46 
+Edge 754 755 NumFc 1 46 
+Edge 755 102 NumFc 1 46 
+Edge 513 767 NumFc 1 94 
+Edge 767 165 NumFc 1 94 
+Edge 102 776 NumFc 1 46 
+Edge 776 777 NumFc 1 46 
+Edge 777 778 NumFc 1 46 
+Edge 778 61 NumFc 1 46 
+Edge 100 779 NumFc 1 46 
+Edge 779 780 NumFc 1 46 
+Edge 109 793 NumFc 1 18 
+Edge 793 110 NumFc 1 18 
+Edge 195 795 NumFc 2 13 12 
+Edge 795 196 NumFc 2 13 12 
+Edge 206 797 NumFc 1 66 
+Edge 797 207 NumFc 1 66 
+Edge 248 809 NumFc 1 98 
+Edge 809 249 NumFc 1 98 
+Edge 146 810 NumFc 2 29 28 
+Edge 810 370 NumFc 2 29 28 
+Edge 152 844 NumFc 1 106 
+Edge 844 88 NumFc 1 106 
+Edge 207 854 NumFc 1 66 
+Edge 854 208 NumFc 1 66 
+Edge 620 865 NumFc 2 29 28 
+Edge 865 146 NumFc 2 29 28 
+Edge 208 868 NumFc 1 66 
+Edge 868 149 NumFc 1 66 
+Edge 65 870 NumFc 1 10 
+Edge 870 330 NumFc 1 10 
+Edge 877 195 NumFc 2 13 12 
+Edge 161 881 NumFc 1 54 
+Edge 881 451 NumFc 1 54 
+Edge 303 888 NumFc 1 64 
+Edge 888 301 NumFc 1 64 
+Edge 145 892 NumFc 2 29 28 
+Edge 892 620 NumFc 2 29 28 
+Edge 603 895 NumFc 2 41 40 
+Edge 895 211 NumFc 2 41 40 
+Edge 214 898 NumFc 2 41 40 
+Edge 898 595 NumFc 2 41 40 
+Edge 209 906 NumFc 2 43 42 
+Edge 906 490 NumFc 2 43 42 
+Edge 490 909 NumFc 2 43 42 
+Edge 909 82 NumFc 2 43 42 
+Edge 912 209 NumFc 2 43 42 
+Edge 441 916 NumFc 1 86 
+Edge 916 121 NumFc 1 86 
+Edge 68 922 NumFc 1 102 
+Edge 922 74 NumFc 1 102 
+Edge 63 927 NumFc 1 62 
+Edge 927 55 NumFc 1 62 
+Edge 55 930 NumFc 1 66 
+Edge 930 485 NumFc 1 66 
+Edge 74 933 NumFc 1 98 
+Edge 933 428 NumFc 1 98 
+Edge 63 940 NumFc 1 64 
+Edge 940 549 NumFc 1 64 
+Edge 82 945 NumFc 2 13 12 
+Edge 945 443 NumFc 2 13 12 
+Edge 159 946 NumFc 1 54 
+Edge 946 160 NumFc 1 54 
+Edge 166 949 NumFc 1 94 
+Edge 949 167 NumFc 1 94 
+Edge 84 952 NumFc 1 54 
+Edge 175 955 NumFc 1 54 
+Edge 955 176 NumFc 1 54 
+Edge 58 957 NumFc 1 54 
+Edge 189 960 NumFc 2 7 6 
+Edge 960 734 NumFc 2 7 6 
+Edge 708 967 NumFc 2 7 6 
+Edge 967 80 NumFc 2 7 6 
+Edge 123 972 NumFc 1 86 
+Edge 972 973 NumFc 1 86 
+Edge 973 124 NumFc 1 86 
+Edge 68 975 NumFc 1 26 
+Edge 975 558 NumFc 1 26 
+Edge 560 977 NumFc 2 29 28 
+Edge 977 68 NumFc 2 29 28 
+Edge 734 978 NumFc 2 7 6 
+Edge 978 190 NumFc 2 7 6 
+Edge 177 982 NumFc 1 54 
+Edge 982 84 NumFc 1 54 
+Edge 458 985 NumFc 2 41 40 
+Edge 985 214 NumFc 2 41 40 
+Edge 211 988 NumFc 2 41 40 
+Edge 988 446 NumFc 2 41 40 
+Edge 443 995 NumFc 2 13 12 
+Edge 995 193 NumFc 2 13 12 
+Edge 89 997 NumFc 2 7 6 
+Edge 997 187 NumFc 2 7 6 
+Edge 110 1002 NumFc 1 18 
+Edge 1002 111 NumFc 1 18 
+Edge 196 1004 NumFc 2 13 12 
+Edge 1004 90 NumFc 2 13 12 
+Edge 193 1008 NumFc 2 13 12 
+Edge 1008 744 NumFc 2 13 12 
+Edge 547 1010 NumFc 1 112 
+Edge 1010 77 NumFc 1 112 
+Edge 577 1012 NumFc 1 64 
+Edge 1012 62 NumFc 1 64 
+Edge 285 1018 NumFc 1 98 
+Edge 1018 286 NumFc 1 98 
+Edge 676 1019 NumFc 2 29 28 
+Edge 1019 142 NumFc 2 29 28 
+Edge 142 1023 NumFc 2 29 28 
+Edge 1023 667 NumFc 2 29 28 
+Edge 667 1026 NumFc 2 29 28 
+Edge 1026 143 NumFc 2 29 28 
+Edge 250 1030 NumFc 1 98 
+Edge 1030 251 NumFc 1 98 
+Edge 645 1031 NumFc 2 29 28 
+Edge 1031 145 NumFc 2 29 28 
+Edge 283 1035 NumFc 1 98 
+Edge 1035 284 NumFc 1 98 
+Edge 143 1036 NumFc 2 29 28 
+Edge 1036 661 NumFc 2 29 28 
+Edge 184 1037 NumFc 1 64 
+Edge 1037 577 NumFc 1 64 
+Edge 167 1043 NumFc 1 94 
+Edge 1043 168 NumFc 1 94 
+Edge 780 1051 NumFc 1 46 
+Edge 1051 101 NumFc 1 46 
+Edge 592 1055 NumFc 1 64 
+Edge 1055 184 NumFc 1 64 
+Edge 160 1060 NumFc 1 54 
+Edge 1060 841 NumFc 1 54 
+Edge 611 1064 NumFc 2 7 6 
+Edge 1064 188 NumFc 2 7 6 
+Edge 190 1067 NumFc 2 7 6 
+Edge 1067 772 NumFc 2 7 6 
+Edge 168 1069 NumFc 1 94 
+Edge 1069 75 NumFc 1 94 
+Edge 112 1072 NumFc 1 18 
+Edge 1072 72 NumFc 1 18 
+Edge 199 1074 NumFc 2 13 12 
+Edge 1074 200 NumFc 2 13 12 
+Edge 57 1076 NumFc 1 70 
+Edge 1076 788 NumFc 1 70 
+Edge 595 1080 NumFc 2 41 40 
+Edge 1080 139 NumFc 2 41 40 
+Edge 139 1083 NumFc 2 41 40 
+Edge 1083 603 NumFc 2 41 40 
+Edge 556 1088 NumFc 1 108 
+Edge 1088 79 NumFc 1 108 
+Edge 525 1089 NumFc 1 72 
+Edge 1089 171 NumFc 1 72 
+Edge 692 1092 NumFc 1 72 
+Edge 1092 173 NumFc 1 72 
+Edge 124 1097 NumFc 1 86 
+Edge 1097 1098 NumFc 1 86 
+Edge 1098 125 NumFc 1 86 
+Edge 172 1100 NumFc 1 72 
+Edge 1100 692 NumFc 1 72 
+Edge 238 1107 NumFc 1 56 
+Edge 1107 116 NumFc 1 56 
+Edge 841 1108 NumFc 1 54 
+Edge 1108 161 NumFc 1 54 
+Edge 176 1111 NumFc 1 54 
+Edge 1111 827 NumFc 1 54 
+Edge 744 1115 NumFc 2 13 12 
+Edge 1115 194 NumFc 2 13 12 
+Edge 122 1125 NumFc 1 86 
+Edge 1125 823 NumFc 1 86 
+Edge 187 1126 NumFc 2 7 6 
+Edge 1126 611 NumFc 2 7 6 
+Edge 138 1127 NumFc 1 70 
+Edge 1127 688 NumFc 1 70 
+Edge 136 1130 NumFc 1 70 
+Edge 1130 792 NumFc 1 70 
+Edge 792 1133 NumFc 1 70 
+Edge 1133 137 NumFc 1 70 
+Edge 803 1135 NumFc 1 70 
+Edge 1135 136 NumFc 1 70 
+Edge 534 1136 NumFc 1 46 
+Edge 1136 98 NumFc 1 46 
+Edge 533 1137 NumFc 1 46 
+Edge 1137 534 NumFc 1 46 
+Edge 135 1140 NumFc 1 70 
+Edge 1140 803 NumFc 1 70 
+Edge 656 1145 NumFc 1 86 
+Edge 1145 122 NumFc 1 86 
+Edge 788 1148 NumFc 1 70 
+Edge 1148 134 NumFc 1 70 
+Edge 125 1150 NumFc 1 86 
+Edge 1150 1151 NumFc 1 86 
+Edge 1151 78 NumFc 1 86 
+Edge 165 1154 NumFc 1 94 
+Edge 1154 847 NumFc 1 94 
+Edge 819 1162 NumFc 1 56 
+Edge 1162 119 NumFc 1 56 
+Edge 827 1163 NumFc 1 54 
+Edge 1163 177 NumFc 1 54 
+Edge 60 1180 NumFc 1 58 
+Edge 1180 59 NumFc 1 58 
+Edge 60 1201 NumFc 1 56 
+Edge 1201 535 NumFc 1 56 
+Edge 703 1208 NumFc 1 54 
+Edge 1208 59 NumFc 1 54 
+Edge 198 1211 NumFc 2 13 12 
+Edge 1211 199 NumFc 2 13 12 
+Edge 574 1216 NumFc 1 86 
+Edge 1216 441 NumFc 1 86 
+Edge 200 1220 NumFc 2 13 12 
+Edge 1220 83 NumFc 2 13 12 
+Edge 90 1222 NumFc 2 13 12 
+Edge 1222 197 NumFc 2 13 12 
+Edge 496 1227 NumFc 1 66 
+Edge 1227 723 NumFc 1 66 
+Edge 723 1228 NumFc 1 66 
+Edge 1228 56 NumFc 1 66 
+Edge 544 1240 NumFc 1 112 
+Edge 1240 308 NumFc 1 112 
+Edge 509 1241 NumFc 2 7 6 
+Edge 1241 89 NumFc 2 7 6 
+Edge 96 1247 NumFc 1 10 
+Edge 1247 504 NumFc 1 10 
+Edge 508 1249 NumFc 2 7 6 
+Edge 1249 509 NumFc 2 7 6 
+Edge 76 1251 NumFc 1 112 
+Edge 1251 544 NumFc 1 112 
+Edge 504 1253 NumFc 1 10 
+Edge 1253 505 NumFc 1 10 
+Edge 507 1255 NumFc 2 7 6 
+Edge 1255 508 NumFc 2 7 6 
+Edge 57 1257 NumFc 1 72 
+Edge 1257 943 NumFc 1 72 
+Edge 286 1259 NumFc 1 98 
+Edge 1259 75 NumFc 1 98 
+Edge 186 1261 NumFc 2 7 6 
+Edge 1261 507 NumFc 2 7 6 
+Edge 823 1262 NumFc 1 86 
+Edge 1262 824 NumFc 1 86 
+Edge 548 1265 NumFc 2 7 6 
+Edge 1265 708 NumFc 2 7 6 
+Edge 412 1267 NumFc 1 106 
+Edge 1267 78 NumFc 1 106 
+Edge 824 1269 NumFc 1 86 
+Edge 1269 123 NumFc 1 86 
+Edge 491 1272 NumFc 2 43 42 
+Edge 1272 912 NumFc 2 43 42 
+Edge 505 1281 NumFc 1 10 
+Edge 1281 506 NumFc 1 10 
+Edge 512 1283 NumFc 2 7 6 
+Edge 1283 186 NumFc 2 7 6 
+Edge 511 1285 NumFc 2 7 6 
+Edge 1285 512 NumFc 2 7 6 
+Edge 957 1288 NumFc 1 54 
+Edge 1288 174 NumFc 1 54 
+Edge 506 1291 NumFc 1 10 
+Edge 1291 71 NumFc 1 10 
+Edge 510 1293 NumFc 2 7 6 
+Edge 1293 511 NumFc 2 7 6 
+Edge 81 1294 NumFc 2 7 6 
+Edge 1294 510 NumFc 2 7 6 
+Edge 952 1298 NumFc 1 54 
+Edge 1298 158 NumFc 1 54 
+Edge 716 1300 NumFc 2 43 42 
+Edge 1300 491 NumFc 2 43 42 
+Edge 847 1303 NumFc 1 94 
+Edge 1303 166 NumFc 1 94 
+Edge 171 1321 NumFc 1 72 
+Edge 1321 970 NumFc 1 72 
+Edge 970 1322 NumFc 1 72 
+Edge 1322 172 NumFc 1 72 
+Edge 173 1325 NumFc 1 72 
+Edge 1325 963 NumFc 1 72 
+Edge 963 1328 NumFc 1 72 
+Edge 1328 58 NumFc 1 72 
+Edge 835 1332 NumFc 1 56 
+Edge 1332 61 NumFc 1 56 
+Edge 88 1335 NumFc 1 106 
+Edge 1335 412 NumFc 1 106 
+Edge 943 1340 NumFc 1 72 
+Edge 1340 170 NumFc 1 72 
+Edge 134 1344 NumFc 1 70 
+Edge 1344 981 NumFc 1 70 
+Edge 981 1346 NumFc 1 70 
+Edge 1346 135 NumFc 1 70 
+Edge 818 1350 NumFc 1 56 
+Edge 1350 819 NumFc 1 56 
+Edge 772 1353 NumFc 2 7 6 
+Edge 1353 548 NumFc 2 7 6 
+Edge 188 1358 NumFc 2 7 6 
+Edge 1358 759 NumFc 2 7 6 
+Edge 581 1365 NumFc 1 30 
+Edge 1365 69 NumFc 1 30 
+Edge 69 1367 NumFc 2 33 32 
+Edge 1367 585 NumFc 2 33 32 
+Edge 170 1369 NumFc 1 72 
+Edge 1369 525 NumFc 1 72 
+Edge 64 1371 NumFc 1 18 
+Edge 1371 568 NumFc 1 18 
+Edge 64 1373 NumFc 1 76 
+Edge 1373 570 NumFc 1 76 
+Edge 301 1385 NumFc 1 64 
+Edge 1385 1379 NumFc 1 64 
+Edge 576 1391 NumFc 1 80 
+Edge 1391 65 NumFc 1 80 
+Edge 79 1396 NumFc 1 106 
+Edge 1396 573 NumFc 1 106 
+Edge 532 1405 NumFc 1 46 
+Edge 1405 533 NumFc 1 46 
+Edge 648 1414 NumFc 1 64 
+Edge 1414 649 NumFc 1 64 
+Edge 790 1421 NumFc 1 70 
+Edge 1421 138 NumFc 1 70 
+Edge 137 1423 NumFc 1 70 
+Edge 1423 790 NumFc 1 70 
+Edge 649 1424 NumFc 1 64 
+Edge 1424 650 NumFc 1 64 
+Edge 308 1426 NumFc 1 112 
+Edge 1426 547 NumFc 1 112 
+Edge 785 1431 NumFc 1 56 
+Edge 1431 117 NumFc 1 56 
+Edge 116 1433 NumFc 1 56 
+Edge 1433 785 NumFc 1 56 
+Edge 87 1436 NumFc 1 98 
+Edge 1436 283 NumFc 1 98 
+Edge 614 1438 NumFc 2 41 40 
+Edge 1438 64 NumFc 2 41 40 
+Edge 591 1440 NumFc 1 54 
+Edge 1440 159 NumFc 1 54 
+Edge 69 1444 NumFc 1 108 
+Edge 1444 556 NumFc 1 108 
+Edge 251 1446 NumFc 1 98 
+Edge 1446 87 NumFc 1 98 
+Edge 65 1448 NumFc 2 41 40 
+Edge 1448 624 NumFc 2 41 40 
+Edge 601 1452 NumFc 1 54 
+Edge 1452 175 NumFc 1 54 
+Edge 86 1455 NumFc 1 64 
+Edge 1455 592 NumFc 1 64 
+Edge 117 1460 NumFc 1 56 
+Edge 1460 828 NumFc 1 56 
+Edge 119 1461 NumFc 1 56 
+Edge 1461 843 NumFc 1 56 
+Edge 843 1464 NumFc 1 56 
+Edge 1464 120 NumFc 1 56 
+Edge 828 1466 NumFc 1 56 
+Edge 1466 118 NumFc 1 56 
+Edge 759 1469 NumFc 2 7 6 
+Edge 1469 189 NumFc 2 7 6 
+Edge 120 1473 NumFc 1 56 
+Edge 1473 835 NumFc 1 56 
+Edge 194 1475 NumFc 2 13 12 
+Edge 1475 877 NumFc 2 13 12 
+Edge 101 1479 NumFc 1 46 
+Edge 1479 753 NumFc 1 46 
+Edge 1379 1481 NumFc 1 64 
+Edge 1481 150 NumFc 1 64 
+Edge 428 1487 NumFc 1 98 
+Edge 1487 248 NumFc 1 98 
+Edge 66 1497 NumFc 1 80 
+Edge 1497 732 NumFc 1 80 
+Edge 118 1498 NumFc 1 56 
+Edge 1498 818 NumFc 1 56 
+Edge 162 1503 NumFc 1 78 
+Edge 1503 489 NumFc 1 78 
+Edge 626 1507 NumFc 1 46 
+Edge 1507 627 NumFc 1 46 
+Edge 455 1511 NumFc 1 78 
+Edge 1511 140 NumFc 1 78 
+Edge 670 1516 NumFc 1 76 
+Edge 1516 67 NumFc 1 76 

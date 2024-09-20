@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Wave_Propagation_lib Wave_Propagation_lib
+ASSIGN Wave_Propagation_lib libMode shared

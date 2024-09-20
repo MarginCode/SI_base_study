@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      magi0
+HostName                       DESKTOP-POLMG0O
+ProcessIdentifier              9012
+ProcessCreationTime_UTC        1726854398
+ProcessCreationTime_Readable   Sat Sep 21 01:46:38 2024 中国标准时间
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\magi0\Documents\GitHub\SI_base_study\13.Impact_of_loss_on_signal\loss_wrk\loss_lib\tech.db.cdslck
+TimeEditLocked                 Sat Sep 21 01:46:59 2024 中国标准时间
