@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sat Sep 21 13:29:28 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\14.Law_of_reflection\Reflection_wrk\data"
+      Process ID: 3600
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <Reflection_lib:01_reflection_Principle:schematic>   time=(0 s->15 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.69 seconds.
+

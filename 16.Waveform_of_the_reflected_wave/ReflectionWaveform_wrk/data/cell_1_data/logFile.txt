@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sun Sep 22 00:52:21 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\16.Waveform_of_the_reflected_wave\ReflectionWaveform_wrk\data"
+      Process ID: 14596
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <ReflectionWaveform_lib:cell_1:schematic>   time=(0 s->10 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.58 seconds.
+
