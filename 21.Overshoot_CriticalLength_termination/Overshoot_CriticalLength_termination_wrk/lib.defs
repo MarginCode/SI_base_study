@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Overshoot_CriticalLength_termination_lib Overshoot_CriticalLength_termination_lib
+ASSIGN Overshoot_CriticalLength_termination_lib libMode shared

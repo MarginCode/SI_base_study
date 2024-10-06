@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sun Oct  6 10:26:40 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Series_termination_wrk\data"
+      Process ID: 8628
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <Series_termination_lib:cell_1:schematic>   time=(0 s->20 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.68 seconds.
+

@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Reflection_Cap_lib Reflection_Cap_lib
+ASSIGN Reflection_Cap_lib libMode shared

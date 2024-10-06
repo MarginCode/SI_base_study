@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sun Sep 29 18:53:07 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Reflection_Cap_wrk\data"
+      Process ID: 16936
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <Reflection_Cap_lib:cell_1:schematic>   time=(0 s->5 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.90 seconds.
+

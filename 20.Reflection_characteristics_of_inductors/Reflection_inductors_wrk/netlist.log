@@ -1,0 +1,49 @@
+; Top Design: "Reflection_inductors_lib:cell_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Reflection_inductors_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+#uselib "ckt" , "TLIND"
+TLIND:TLD1  V_drv V_inductor Z=50.0 Ohm Delay=t_delay 
+Tran:Tran1 StartTime=0.0 nsec StopTime=10 nsec MaxTimeStep=1.0 psec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes ImpSkipTotalEnergy=1000 ImpLFEOn=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+R:R1  N__3 V_drv R=50 Ohm Noise=yes 
+L:L1  V_inductor N__7 L=L Noise=yes  
+V_Source:SRC1  N__3 0 Type="VtPulse" V_Tran=pulse(time, 0 V,2 V,0 nsec,Tr,Tr,5 nsec,100 nsec) SaveCurrent=1 
+
+Tr=0.1 nsec tune{ 0.1 nsec to 7.5 nsec by 0.5 nsec }
+
+t_delay=0.5 nsec tune{ 0.5 nsec to 1.5 nsec by 0.1 nsec }
+
+L=20 nH tune{ 1 nH to 20 nH by 0.9 nH }
+#uselib "ckt" , "TLIND"
+TLIND:TLD2  N__7 V_end Z=50.0 Ohm Delay=1 nsec 
+R:R2  V_end 0 R=50 Ohm Noise=yes 
+Short:TLD3  N__5 V_end_noL Mode=0 SaveCurrent=no
+Short:TLD4  N__1 N__5 Mode=0 SaveCurrent=no
+Short:R3  V_end_noL N__11 Mode=0 SaveCurrent=no
+Short:R4  N__2 N__1 Mode=0 SaveCurrent=no
+Short:SRC2  N__2 N__8 Mode=0 SaveCurrent=no

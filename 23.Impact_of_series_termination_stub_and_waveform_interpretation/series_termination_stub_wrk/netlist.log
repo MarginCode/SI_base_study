@@ -1,0 +1,40 @@
+; Top Design: "series_termination_stub_lib:cell_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="series_termination_stub_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+V_Source:SRC1  N__1 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,1.2 V,0 nsec,Tr,Tr,4.8 nsec,10 nsec) SaveCurrent=1 
+#uselib "ckt" , "TLIND"
+TLIND:TLD1  V_ball V_stub_end Z=50.0 Ohm Delay=50 psec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD2  V_Rt_end V_Rcv Z=50.0 Ohm Delay=500 psec 
+R:R1  V_stub_end V_Rt_end R=40 Ohm Noise=yes 
+R:R2  V_ball N__1 R=10 Ohm Noise=yes 
+R:R3  V_Rcv 0 R=50 MOhm Noise=yes 
+
+Tr=0 psec tune{ 0 psec to 450 psec by 30 psec }
+Tran:Tran1 StartTime=0.0 nsec StopTime=20.0 nsec MaxTimeStep=1.0 psec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes ImpSkipTotalEnergy=1000 ImpLFEOn=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+

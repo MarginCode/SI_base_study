@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sun Oct  6 20:47:31 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\23.Impact_of_series_termination_stub_and_waveform_interpretation\series_termination_stub_wrk\data"
+      Process ID: 3520
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <series_termination_stub_lib:cell_1:schematic>   time=(0 s->20 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     2.49 seconds.
+

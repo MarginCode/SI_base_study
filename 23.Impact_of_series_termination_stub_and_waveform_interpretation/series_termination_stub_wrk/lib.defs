@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE series_termination_stub_lib series_termination_stub_lib
+ASSIGN series_termination_stub_lib libMode shared

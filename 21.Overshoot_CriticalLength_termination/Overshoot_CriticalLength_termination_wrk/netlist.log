@@ -1,0 +1,48 @@
+; Top Design: "Overshoot_CriticalLength_termination_lib:cell_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Overshoot_CriticalLength_termination_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+R:R1  N__0 N__1 R=10 Ohm Noise=yes 
+V_Source:SRC1  N__0 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,1.2 V,0 nsec,0 nsec,0 nsec,5 nsec,10 nsec) SaveCurrent=1 
+Tran:Tran1 StartTime=0.0 nsec StopTime=3 nsec MaxTimeStep=1.0 psec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes ImpSkipTotalEnergy=1000 ImpLFEOn=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+#uselib "ckt" , "TLIND"
+TLIND:TLD1  N__1 Vrcv_Tr_0ps Z=50.0 Ohm Delay=t_delay 
+R:R2  Vrcv_Tr_0ps 0 R=50 MOhm Noise=yes 
+R:R3  Vrcv_Tr_200ps 0 R=50 MOhm Noise=yes 
+R:R4  N__2 N__4 R=10 Ohm Noise=yes 
+V_Source:SRC2  N__2 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,1.2 V,0 nsec,200 psec,200 psec,4.8 nsec,10 nsec) SaveCurrent=1 
+#uselib "ckt" , "TLIND"
+TLIND:TLD2  N__4 Vrcv_Tr_200ps Z=50.0 Ohm Delay=t_delay 
+
+t_delay=100 psec tune{ 1 psec to 100 psec by 5 psec }
+R:R5  V1 0 R=10 MOhm Noise=yes 
+V_Source:SRC3  V1 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,2 V,t_delay,200 psec,200 psec,4.8 nsec,10 nsec) SaveCurrent=1 
+R:R6  V2 0 R=10 MOhm Noise=yes 
+V_Source:SRC4  V2 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,-1.333 V,3*t_delay,200 psec,200 psec,4.8 nsec,10 nsec) SaveCurrent=1 
+R:R7  V3 0 R=10 MOhm Noise=yes 
+V_Source:SRC5  V3 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,0.889 V,5*t_delay,200 psec,200 psec,4.8 nsec,10 nsec) SaveCurrent=1 

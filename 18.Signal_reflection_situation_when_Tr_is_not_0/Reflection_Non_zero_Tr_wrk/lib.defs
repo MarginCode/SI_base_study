@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Reflection_Non_zero_Tr_lib Reflection_Non_zero_Tr_lib
+ASSIGN Reflection_Non_zero_Tr_lib libMode shared

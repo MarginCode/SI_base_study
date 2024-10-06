@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Mon Sep 30 05:14:44 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\21.Overshoot_CriticalLength_termination\Overshoot_CriticalLength_termination_wrk\data"
+      Process ID: 16248
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <Overshoot_CriticalLength_termination_lib:cell_1:schematic>   time=(0 s->3 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.63 seconds.
+
