@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Tue Oct  8 00:26:29 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\28.Characeristics_of_T-topology_structure_2\Characteristics_of_T-topology_structure_wrk\data"
+      Process ID: 8912
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <Characteristics_of_T-topology_structure_lib:cell_1:schematic>   time=(0 s->20 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.97 seconds.
+

@@ -1,0 +1,25 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Mon Oct  7 10:08:05 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\end_parallel_termination_wrk\data"
+      Process ID: 1152
+
+
+9 spare nodes and 8 spare devices are removed.
+The details can be found in file 'C:\Users\magi0\end_parallel_termination_wrk\data\cell_1_data\spare_removal.txt'.
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <end_parallel_termination_lib:cell_1:schematic>   time=(0 s->20 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.75 seconds.
+

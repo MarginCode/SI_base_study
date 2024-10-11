@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Characteristics_of_chain_structure_lib Characteristics_of_chain_structure_lib
+ASSIGN Characteristics_of_chain_structure_lib libMode shared

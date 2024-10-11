@@ -1,0 +1,87 @@
+; Top Design: "Characteristics_of_T-topology_structure_lib:cell_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="Characteristics_of_T-topology_structure_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+R:R1  N__2 V_Drv R=10 Ohm Noise=yes 
+V_Source:SRC1  N__2 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,2 V,0 nsec,Tr,Tr,4 nsec,10 nsec) SaveCurrent=1 
+#uselib "ckt" , "TLIND"
+TLIND:TLD2  N__4 V_Rcv_1 Z=50.0 Ohm Delay=delay_branch 
+#uselib "ckt" , "TLIND"
+TLIND:TLD1  V_Drv N__4 Z=50.0 Ohm Delay=2000 psec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD3  N__4 V_Rcv_2 Z=50.0 Ohm Delay=delay_branch 
+R:R2  V_Rcv_1 0 R=50 MOhm Noise=yes 
+R:R3  V_Rcv_2 0 R=50 MOhm Noise=yes 
+Tran:Tran1 StartTime=0.0 nsec StopTime=20.0 nsec MaxTimeStep=1.0 psec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes ImpSkipTotalEnergy=1000 ImpLFEOn=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+
+Tr=0 psec tune{ 0 psec to 500 psec by 0.1 psec }
+
+delay_branch=200 pesc
+R:R7  N__8 0 R=50 Ohm Noise=yes 
+R:R10  V_Rcv_2p 0 R=50 MOhm Noise=yes 
+R:R11  V_Rcv_1p 0 R=50 MOhm Noise=yes 
+R:R12  N__11 V_Drv_p R=10 Ohm Noise=yes 
+V_Source:SRC2  N__11 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,2 V,0 nsec,Tr,Tr,4 nsec,10 nsec) SaveCurrent=1 
+#uselib "ckt" , "TLIND"
+TLIND:TLD4  N__8 V_Rcv_2p Z=50.0 Ohm Delay=delay_branch 
+#uselib "ckt" , "TLIND"
+TLIND:TLD5  V_Drv_p N__8 Z=50.0 Ohm Delay=2000 psec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD6  N__8 V_Rcv_1p Z=50.0 Ohm Delay=delay_branch 
+C:C1  0 V_Rcv_2p C=DieCap 
+C:C2  0 V_Rcv_1p C=DieCap 
+
+DieCap=0.5 pF tune{ 0.5 pF to 10 pF by 0.1 pF }
+R:R13  V_Rcv_2s 0 R=50 MOhm Noise=yes 
+R:R14  V_Rcv_1s 0 R=50 MOhm Noise=yes 
+R:R15  N__6 V_Drv_s R=50 Ohm Noise=yes 
+#uselib "ckt" , "TLIND"
+TLIND:TLD7  N__9 V_Rcv_1s Z=50.0 Ohm Delay=delay_branch 
+#uselib "ckt" , "TLIND"
+TLIND:TLD8  V_Drv_s N__9 Z=50.0 Ohm Delay=2000 psec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD9  N__9 V_Rcv_2s Z=50.0 Ohm Delay=delay_branch 
+C:C3  0 V_Rcv_2s C=DieCap 
+V_Source:SRC3  N__6 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,2 V,0 nsec,Tr,Tr,4 nsec,10 nsec) SaveCurrent=1 
+C:C4  0 V_Rcv_1 C=DieCap 
+C:C5  0 V_Rcv_2 C=DieCap 
+C:C6  0 V_Rcv_1s C=DieCap 
+R:R16  N__17 N__18 R=50 Ohm Noise=yes 
+R:R17  V_Rcv_2p_up 0 R=50 MOhm Noise=yes 
+R:R18  V_Rcv_1p_up 0 R=50 MOhm Noise=yes 
+R:R19  N__12 V_Drv_p_up R=10 Ohm Noise=yes 
+V_Source:SRC4  N__12 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,2 V,0 nsec,Tr,Tr,4 nsec,10 nsec) SaveCurrent=1 
+#uselib "ckt" , "TLIND"
+TLIND:TLD10  N__17 V_Rcv_1p_up Z=50.0 Ohm Delay=delay_branch 
+#uselib "ckt" , "TLIND"
+TLIND:TLD11  V_Drv_p_up N__17 Z=50.0 Ohm Delay=2000 psec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD12  N__17 V_Rcv_2p_up Z=50.0 Ohm Delay=delay_branch 
+C:C7  0 V_Rcv_1p_up C=DieCap 
+C:C8  0 V_Rcv_2p_up C=DieCap 
+V_Source:SRC5  N__18 0 Type="V_DC" Vdc=1.0 V SaveCurrent=1 

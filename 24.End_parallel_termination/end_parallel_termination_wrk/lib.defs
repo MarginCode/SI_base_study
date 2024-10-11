@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE end_parallel_termination_lib end_parallel_termination_lib
+ASSIGN end_parallel_termination_lib libMode shared

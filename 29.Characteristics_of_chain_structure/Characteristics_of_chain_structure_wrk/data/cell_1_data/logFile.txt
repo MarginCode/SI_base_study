@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Tue Oct  8 01:24:38 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\29.Characteristics_of_chain_structure\Characteristics_of_chain_structure_wrk\data"
+      Process ID: 13832
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <Characteristics_of_chain_structure_lib:cell_1:schematic>   time=(0 s->100 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     1.75 seconds.
+
