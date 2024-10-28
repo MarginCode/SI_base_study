@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sun Oct 13 03:37:51 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\32.Inductive_coupling_and_inductive_crosstalk_noise\inductive_coupling_and_inductive_crosstalk_noise_wrk\data"
+      Process ID: 13352
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <inductive_coupling_and_inductive_crosstalk_noise_lib:cell_1:schematic>   time=(0 s->6 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.65 seconds.
+

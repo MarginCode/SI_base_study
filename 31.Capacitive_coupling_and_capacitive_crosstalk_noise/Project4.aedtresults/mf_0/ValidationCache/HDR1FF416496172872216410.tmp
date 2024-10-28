@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='core_h=\'3.2400000000000002mil\' core_w=\'50mil\' Plant_h=\'1.2mil\' spec=\'6.0000000000000009mil\' trace_h=\'1.2mil\' trace_w=\'6.0000000000000009mil\''
+		Status=true
+		FileName='VI28B816496172872285122.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

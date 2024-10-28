@@ -1,0 +1,28 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Tue Oct 15 12:03:14 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\33.Simulation_of_near-end_and_far-end_crosstalk\Simulation_of_near-end_and_far-end_crosstalk_wrk\data"
+      Process ID: 11124
+
+
+COMPONENT : CLin1
+    Characterizing to 10 GHz 
+
+    Use an adaptive sample spacing of 78.12 MHz.
+
+    S-parameter passivity is enforced.
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <Simulation_of_near-end_and_far-end_crosstalk_lib:cell_1:schematic>   time=(0 s->10 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     0.91 seconds.
+

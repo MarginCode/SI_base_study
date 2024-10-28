@@ -1,0 +1,58 @@
+; Top Design: "inductive_coupling_and_inductive_crosstalk_noise_lib:cell_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="inductive_coupling_and_inductive_crosstalk_noise_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Tran:Tran1 StartTime=0.0 nsec StopTime=6 nsec MaxTimeStep=1.0 psec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes ImpSkipTotalEnergy=1000 ImpLFEOn=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+V_Source:SRC2  N__27 0 Type="VtStep" V_Tran=pulse(time, 0 V, 2 V, 0 nsec, 1 nsec) SaveCurrent=1 
+#uselib "ckt" , "TLIND"
+TLIND:TLD9  V_Forward_1 N__21 Z=50.0 Ohm Delay=1 nsec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD10  V_Forward_2 N__19 Z=50.0 Ohm Delay=1 nsec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD11  V_Back_2 N__29 Z=50.0 Ohm Delay=1 nsec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD12  V_Back_1 N__18 Z=50.0 Ohm Delay=1 nsec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD13  N__23 N__24 Z=50.0 Ohm Delay=1 nsec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD14  N__25 N__23 Z=50.0 Ohm Delay=1 nsec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD15  N__28 N__22 Z=50.0 Ohm Delay=1 nsec 
+#uselib "ckt" , "TLIND"
+TLIND:TLD16  N__20 N__28 Z=50.0 Ohm Delay=1 nsec 
+R:R5  0 V_Forward_2 R=50 Ohm Noise=yes 
+R:R6  0 V_Back_2 R=50 Ohm Noise=yes 
+R:R7  N__24 0 R=50 Ohm Noise=yes 
+R:R8  N__27 N__20 R=50 Ohm Noise=yes 
+Short:I_Probe4  V_Forward_1 N__19 Mode=0 SaveCurrent=yes 
+Short:I_Probe5  V_Back_1 N__29 Mode=0 SaveCurrent=yes 
+L:L1  N__22 N__32 L=1.0 nH Noise=yes  
+L:L2  N__18 N__35 L=1.0 nH Noise=yes  
+Short:I_Probe6  N__32 N__25 Mode=0 SaveCurrent=yes 
+Short:I_Probe7  N__35 N__21 Mode=0 SaveCurrent=yes 
+Mutual:Mutual1  K=0.5 Inductor1="L1" Inductor2="L2" 

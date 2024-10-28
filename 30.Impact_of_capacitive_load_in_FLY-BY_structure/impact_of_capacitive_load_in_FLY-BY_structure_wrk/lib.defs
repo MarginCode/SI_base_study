@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE impact_of_capacitive_load_in_FLY#2dBY_structure_lib impact_of_capacitive_load_in_FLY-BY_structure_lib
+ASSIGN impact_of_capacitive_load_in_FLY#2dBY_structure_lib libMode shared

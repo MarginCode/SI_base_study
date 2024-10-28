@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Simulation_of_near#2dend_and_far#2dend_crosstalk_lib Simulation_of_near-end_and_far-end_crosstalk_lib
+ASSIGN Simulation_of_near#2dend_and_far#2dend_crosstalk_lib libMode shared

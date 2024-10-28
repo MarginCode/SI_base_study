@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sat Oct 12 09:31:08 2024
+      Running on host: "DESKTOP-POLMG0O"
+      In Directory: "C:\Users\magi0\Documents\GitHub\SI_base_study\30.Impact_of_capacitive_load_in_FLY-BY_structure\impact_of_capacitive_load_in_FLY-BY_structure_wrk\data"
+      Process ID: 1616
+
+Pt DC convergence is used.
+
+.
+
+
+TRAN Tran1[1] <impact_of_capacitive_load_in_FLY-BY_structure_lib:cell_1:schematic>   time=(0 s->200 ns)
+
+
+Resource usage:
+  Total stopwatch time     =     2.26 seconds.
+

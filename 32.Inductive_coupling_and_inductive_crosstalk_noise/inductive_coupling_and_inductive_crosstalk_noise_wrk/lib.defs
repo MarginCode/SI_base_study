@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE inductive_coupling_and_inductive_crosstalk_noise_lib inductive_coupling_and_inductive_crosstalk_noise_lib
+ASSIGN inductive_coupling_and_inductive_crosstalk_noise_lib libMode shared

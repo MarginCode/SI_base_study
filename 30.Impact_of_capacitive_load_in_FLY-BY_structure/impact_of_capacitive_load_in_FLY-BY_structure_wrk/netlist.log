@@ -1,0 +1,55 @@
+; Top Design: "impact_of_capacitive_load_in_FLY-BY_structure_lib:cell_1:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="impact_of_capacitive_load_in_FLY-BY_structure_lib:cell_1:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Tran:Tran1 StartTime=0.0 nsec StopTime=200 nsec MaxTimeStep=1.0 psec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes ImpSkipTotalEnergy=1000 ImpLFEOn=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+V_Source:SRC1  N__0 0 Type="VtPulse" V_Tran=cos_pulse(time, 0 V,2 V,0 nsec,Tr,Tr,4.8 nsec,10 nsec) SaveCurrent=1 
+R:R1  N__0 V_Dev R=5 Ohm tune{ 5 Ohm to 15 Ohm by 1 Ohm } Noise=yes 
+#uselib "ckt" , "TLIND"
+TLIND:TLD1  V_Dev V_Rcv_1 Z=50.0 Ohm Delay=Td_M 
+#uselib "ckt" , "TLIND"
+TLIND:TLD2  V_Rcv_1 V_Rcv_2 Z=50.0 Ohm Delay=Td_M 
+#uselib "ckt" , "TLIND"
+TLIND:TLD3  V_Rcv_2 V_Rcv_3 Z=50.0 Ohm Delay=Td_M 
+R:R2  V_Rcv_1 0 R=50 MOhm Noise=yes 
+C:C1  0 V_Rcv_1 C=CapDie 
+
+CapDie=5.0pF
+R:R3  V_Rcv_2 0 R=50 MOhm Noise=yes 
+C:C2  0 V_Rcv_2 C=CapDie 
+R:R4  V_Rcv_3 0 R=50 MOhm Noise=yes 
+C:C3  0 V_Rcv_3 C=CapDie 
+
+Tr=0 nsec
+
+Td_M=100psec
+R:R5  V_Rcv_4 0 R=50 MOhm Noise=yes 
+C:C4  0 V_Rcv_4 C=CapDie 
+#uselib "ckt" , "TLIND"
+TLIND:TLD4  V_Rcv_3 V_Rcv_4 Z=50.0 Ohm Delay=Td_M 
+R:R6  V_Rcv_4 0 R=50 Ohm Noise=yes 
